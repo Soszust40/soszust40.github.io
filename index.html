@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simon Oszust</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 
@@ -56,7 +57,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Oszust Industries. All Rights Reserved. v1.0.0.001</p>
+        <p>&copy; 2024 Oszust Industries. All Rights Reserved. v1.0.0.002</p>
     </footer>
 
     <script>
@@ -64,35 +65,35 @@
 
         async function fetchGitHubData(repoName, readmeId, releasesId, downloadId) {
             const username = 'Oszust-Industries';
-
-            // Fetch README content
-                try {
-                    const readmeResponse = await fetch(`https://api.github.com/repos/${username}/${repoName}/readme`, {
-                        headers: {
-                            'Accept': 'application/vnd.github.v3.html' // Fetch as HTML
-                        }
-                    });
-                    const readmeHtml = await readmeResponse.text();
-                    document.getElementById(readmeId).innerHTML = readmeHtml; // Display as HTML
-                } catch (error) {
-                    document.getElementById(readmeId).innerText = "Failed to load README.";
-                }
-
-            // Fetch releases
+        
+            // Fetch README content in Markdown format
+            try {
+                const readmeResponse = await fetch(`https://api.github.com/repos/${username}/${repoName}/readme`, {
+                    headers: { 'Accept': 'application/vnd.github.v3.raw' }
+                });
+                const readmeMarkdown = await readmeResponse.text();
+                
+                // Convert Markdown to HTML using marked.js
+                const readmeHtml = marked(readmeMarkdown);
+                document.getElementById(readmeId).innerHTML = readmeHtml;
+            } catch (error) {
+                document.getElementById(readmeId).innerText = "Failed to load README.";
+            }
+        
+            // Fetch releases (this part remains the same)
             try {
                 const releasesResponse = await fetch(`https://api.github.com/repos/${username}/${repoName}/releases`);
                 const releases = await releasesResponse.json();
-
+        
                 const releasesList = document.getElementById(releasesId);
                 releasesList.innerHTML = ''; // Clear loading text
-
+        
                 if (releases.length > 0) {
                     releases.forEach(release => {
                         const listItem = document.createElement('li');
                         listItem.innerHTML = `<a href="${release.zipball_url}">${release.name}</a>`;
                         releasesList.appendChild(listItem);
                     });
-                    // Set the latest release for the download button
                     document.getElementById(downloadId).href = releases[0].zipball_url;
                 } else {
                     releasesList.innerHTML = '<li>No releases available</li>';
