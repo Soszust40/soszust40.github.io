@@ -24,8 +24,7 @@
     <main>
         <!-- Project 1 -->
         <section id="project1">
-            <h2>Project 1: Oszust OS Music Tools</h2>
-            <p><strong>Description:</strong> Brief description of the project goes here.</p>
+            <h2>Oszust OS Music Tools</h2>
 
             <!-- Project README -->
             <div class="project-readme">
@@ -67,15 +66,17 @@
             const username = 'Oszust-Industries';
 
             // Fetch README content
-            try {
-                const readmeResponse = await fetch(`https://api.github.com/repos/${username}/${repoName}/readme`, {
-                    headers: { 'Accept': 'application/vnd.github.v3.raw' }
-                });
-                const readmeText = await readmeResponse.text();
-                document.getElementById(readmeId).innerText = readmeText;
-            } catch (error) {
-                document.getElementById(readmeId).innerText = "Failed to load README.";
-            }
+                try {
+                    const readmeResponse = await fetch(`https://api.github.com/repos/${username}/${repoName}/readme`, {
+                        headers: {
+                            'Accept': 'application/vnd.github.v3.html' // Fetch as HTML
+                        }
+                    });
+                    const readmeHtml = await readmeResponse.text();
+                    document.getElementById(readmeId).innerHTML = readmeHtml; // Display as HTML
+                } catch (error) {
+                    document.getElementById(readmeId).innerText = "Failed to load README.";
+                }
 
             // Fetch releases
             try {
