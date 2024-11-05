@@ -957,6 +957,10 @@ img {
 /* About Us
 --------------------------- */
  
+.about-me {
+    margin-top: 80px; /* Adjust the value as needed */
+  }
+
 .aboutUs-container {
 background-repeat: no-repeat;
 background-position: right;

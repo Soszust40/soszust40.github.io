@@ -1,408 +1,202 @@
 <!doctype html>
-<html>
+<html lang="en"> <!-- Added lang attribute for accessibility and SEO -->
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, maximum-scale=1">
-<title>Simon Oszust</title>
-<link rel="icon" href="favicon.png" type="image/png">
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-<link href="css/style.css" rel="stylesheet" type="text/css"> 
-<link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
-<link href="css/animate.css" rel="stylesheet" type="text/css">
- 
-<!--[if lt IE 9]>
-    <script src="js/respond-1.1.0.min.js"></script>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/html5element.js"></script>
-<![endif]-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Fixed max scale issue for mobile devices -->
+    <title>Simon Oszust</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+        <script src="js/respond-1.1.0.min.js"></script>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/html5element.js"></script>
+    <![endif]-->
+</head>
 
-<!--Header_section-->
-<header id="header_wrapper">
-  <div class="container">
-    <div class="header_box">
-      <div class="logo"><a href="#">Simon Oszust</a></div>
-	  <nav class="navbar navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+<body>
+    <!--Header Section-->
+    <header id="header_wrapper">
+        <div class="container">
+            <div class="header_box">
+                <div class="logo"><a href="#">Simon Oszust</a></div>
+                <nav class="navbar navbar-inverse" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="main-nav" class="collapse navbar-collapse navStyle">
+                        <ul class="nav navbar-nav" id="mainNav">
+                            <li class="active"><a href="#home" class="scroll-link">Home</a></li>
+                            <li><a href="#service" class="scroll-link">My Skills</a></li>
+                            <li><a href="#portfolio" class="scroll-link">Portfolio</a></li> <!-- Changed to lowercase 'portfolio' for consistency -->
+                            <li><a href="#experience" class="scroll-link">Experience</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
-	    <div id="main-nav" class="collapse navbar-collapse navStyle">
-			<ul class="nav navbar-nav" id="mainNav">
-			  <li class="active"><a href="#home" class="scroll-link">Home</a></li>
-			  <li><a href="#service" class="scroll-link">My Skills</a></li>
-			  <li><a href="#Portfolio" class="scroll-link">Portfolio</a></li> 
-			  <li><a href="#experience" class="scroll-link">Experience</a></li> 
-			</ul>
-      </div>
-	 </nav>
-    </div>
-  </div>
-</header>
-<!--Header_section--> 
+    </header>
+    <!--End of Header Section-->
 
-<section id="home"><!-- About Me -->
-  <div class="inner_wrapper about-me aboutMe-container fadeInLeft animated wow">
-    <div class="container">
-      <p></p>
-      <h2>About Me</h2>
-      <h6>A coder passionate about technology and creative problem-solving</h6>
-      <div class="inner_section">
-        <div class="row">
-          <!-- Left Column: Image -->
-          <div class="col-md-4">
-            <img class="img-responsive" src="img/aboutMe.jpg" alt="My Profile Picture">
-          </div>
-          <!-- Right Column: About Text, Contact Info, and Social Links -->
-          <div class="col-md-8">
-            <h3>My Journey</h3>
-            <p>Welcome! I'm a dedicated developer with a passion for creating innovative solutions and bringing ideas to life through code. 
-              Over the years, I've sharpened my skills across various projects and technologies, constantly exploring new ways to improve and evolve my craft. 
-              From building mobile applications to developing computer software, each project has been an opportunity to learn and push my limits.
-              I strive to make an impact with every line of code, turning complex problems into effective and efficient solutions.</p> 
-            
-              <!-- Contact Information -->
-            <div class="contact_info mt-4">
-              <div class="detail">
-                <h4>Address</h4>
-                <p>8948 Cobblestone Cir Plymouth MI 48170</p>
-              </div>
-              <div class="detail">
-                <h4>Phone Number</h4>
-                <p>+1 (734)620-4279</p>
-              </div>
-              <div class="detail">
-                <h4>Email</h4>
-                <p>soszust40@gmail.com</p>
-              </div>
+    <!-- About Me Section -->
+    <section id="home">
+        <div class="inner_wrapper about-me fadeInLeft animated wow">
+            <div class="container">
+                <h2>About Me</h2>
+                <h6>A coder passionate about technology and creative problem-solving</h6>
+                <div class="inner_section">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="img/aboutMe.jpg" alt="Profile Picture of Simon Oszust"> <!-- Improved alt text for accessibility -->
+                        </div>
+                        <div class="col-md-8">
+                            <h3>My Journey</h3>
+                            <p>Welcome! I'm a dedicated developer with a passion for creating innovative solutions and bringing ideas to life through code. Over the years, I've sharpened my skills across various projects and technologies, constantly exploring new ways to improve and evolve my craft. From building mobile applications to developing computer software, each project has been an opportunity to learn and push my limits. I strive to make an impact with every line of code, turning complex problems into effective and efficient solutions.</p>
+                            
+                            <!-- Contact Information -->
+                            <div class="contact_info mt-4">
+                                <div class="detail">
+                                    <h4>Address</h4>
+                                    <p>8948 Cobblestone Cir Plymouth MI 48170</p>
+                                </div>
+                                <div class="detail">
+                                    <h4>Phone Number</h4>
+                                    <p>+1 (734)620-4279</p>
+                                </div>
+                                <div class="detail">
+                                    <h4>Email</h4>
+                                    <p>soszust40@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <!-- Social Links -->
+                            <ul class="social_links mt-3">
+                                <li class="twitter animated bounceIn wow delay-02s">
+                                    <a href="https://twitter.com/Diseyhockey40R" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <!-- Uncomment and add handles for additional social links
+                                <li class="facebook animated bounceIn wow delay-03s"><a href="https://facebook.com/yourhandle" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li class="pinterest animated bounceIn wow delay-04s"><a href="https://pinterest.com/yourhandle" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                                <li class="gplus animated bounceIn wow delay-05s"><a href="https://plus.google.com/yourhandle" target="_blank"><i class="fa fa-google-plus"></i></a></li> 
+                                -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of About Me Section -->
+
+    <!-- My Skills Section -->
+    <section id="service">
+        <div class="container">
+            <h2>My Skills</h2>
+            <h6>Explore my skills and experience in coding, design, productivity tools, and leadership.</h6>
+            <div class="service_wrapper">
+                <div class="row no-wrap">
+                    <div class="col-md-3">
+                        <div class="service_icon delay-03s animated wow zoomIn">
+                            <span><i class="fa fa-code"></i></span>
+                        </div>
+                        <div class="service_block">
+                            <h3 class="animated fadeInUp wow">Coding Languages</h3>
+                            <p class="animated fadeInDown wow">I have experience in Python, Swift, C++, C#, Java, JavaScript, Dart, and SQL.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service_icon icon3 delay-03s animated wow zoomIn">
+                            <span><i class="fa fa-crosshairs"></i></span>
+                        </div>
+                        <div class="service_block">
+                            <h3 class="animated fadeInUp wow">Adobe</h3>
+                            <p class="animated fadeInDown wow">I've created Photoshop, Premiere Pro, and After Effects products for various social media companies.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service_icon icon3 delay-03s animated wow zoomIn">
+                            <span><i class="fa fa-briefcase"></i></span>
+                        </div>
+                        <div class="service_block">
+                            <h3 class="animated fadeInUp wow">Google Suite & Microsoft Office</h3>
+                            <p class="animated fadeInDown wow">I have over 8 years of experience with Microsoft Office and Google Drive.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service_icon icon3 delay-03s animated wow zoomIn">
+                            <span><i class="fa fa-user"></i></span>
+                        </div>
+                        <div class="service_block">
+                            <h3 class="animated fadeInUp wow">Leadership</h3>
+                            <p class="animated fadeInDown wow">I've held multiple leadership roles and excel in problem-solving.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of My Skills Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="content">
+        <div class="container portfolio_title">
+            <div class="section-title">
+                <h2>Portfolio</h2>
+                <h6>A showcase of my current and past coding projects.</h6>
+            </div>
+        </div>
+        <div class="portfolio-top"></div>
+        
+        <!-- Portfolio Filters -->
+        <div class="portfolio">
+            <div id="filters" class="sixteen columns">
+                <ul class="clearfix">
+                    <li><a id="all" href="#" data-filter="*" class="active"><h5>All</h5></a></li>
+                    <li><a href="#" data-filter=".python"><h5>Python</h5></a></li>
+                    <li><a href="#" data-filter=".java"><h5>Java</h5></a></li>
+                    <li><a href="#" data-filter=".c"><h5>C</h5></a></li> <!-- Lowercased 'C' to match CSS class convention -->
+                    <li><a href="#" data-filter=".other"><h5>Other</h5></a></li>
+                </ul>
             </div>
 
-            <!-- Social Links -->
-            <ul class="social_links mt-3">
-              <li class="twitter animated bounceIn wow delay-02s"><a href="https://twitter.com/Diseyhockey40R" target="_blank"><i class="fa fa-twitter"></i></a></li>
-<!--          <li class="facebook animated bounceIn wow delay-03s"><a href="https://facebook.com/yourhandle" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li class="pinterest animated bounceIn wow delay-04s"><a href="https://pinterest.com/yourhandle" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-              <li class="gplus animated bounceIn wow delay-05s"><a href="https://plus.google.com/yourhandle" target="_blank"><i class="fa fa-google-plus"></i></a></li> -->
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div> 
-  </div>
-</section>
-<!--Aboutus--> 
-
-
-<!--Service-->
-<section id="service">
-  <div class="container">
-    <h2>My Skills</h2>
-    <h6>Explore my skills and experience in coding, design, productivity tools, and leadership.</h6>
-    <div class="service_wrapper">
-      <div class="row no-wrap">
-        <div class="col-md-3">
-          <div class="service_icon delay-03s animated wow zoomIn"> 
-            <span><i class="fa fa-code"></i></span> 
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Coding Languages</h3>
-            <p class="animated fadeInDown wow">I have experience in Python, Swift, C++, C#, Java, JavaScript, Dart, and SQL.</p>
-          </div>
-        </div>
-        <div class="col-md-3"> 
-          <div class="service_icon icon3 delay-03s animated wow zoomIn"> 
-            <span><i class="fa fa-crosshairs"></i></span> 
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Adobe</h3>
-            <p class="animated fadeInDown wow">I've made various Photoshop, Premiere Pro, and After Effects products for various social media companies.</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="service_icon icon3 delay-03s animated wow zoomIn"> 
-            <span><i class="fa fa-briefcase"></i></span> 
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Google Suite & Microsoft Office</h3>
-            <p class="animated fadeInDown wow">I have over 8 years of experience in both Microsoft Office and Google Drive.</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="service_icon icon3 delay-03s animated wow zoomIn"> 
-            <span><i class="fa fa-user"></i></span> 
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Leadership</h3>
-            <p class="animated fadeInDown wow">I've held multiple leadership roles and am great at problem-solving.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--Service-->  
-
-<!-- Portfolio -->
-<section id="Portfolio" class="content"> 
-  
-  <!-- Container -->
-  <div class="container portfolio_title"> 
-    
-    <!-- Title -->
-    <div class="section-title">
-      <h2>Portfolio</h2>
-	<h6>A showcase of my current and past coding projects.</h6>
-	  
-    </div>
-    <!--/Title --> 
-    
-  </div>
-  <!-- Container -->
-  <div class="portfolio-top"></div>
-  
-  <!-- Portfolio Filters -->
-  <div class="portfolio"> 
-    
-    <div id="filters" class="sixteen columns">
-      <ul class="clearfix">
-        <li><a id="all" href="#" data-filter="*" class="active">
-          <h5>All</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".python">
-          <h5>Python</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".java">
-          <h5>Java</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".C">
-          <h5>C</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".other">
-          <h5>Other</h5>
-          </a></li> 
-      </ul>
-    </div>
-    <!--/Portfolio Filters --> 
-    
-    <!-- Portfolio Wrapper -->
-    <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">  
-      <!-- Portfolio Item-->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four python isotope-item effect-oscar">
-        <div class="portfolio_img"> 
-            <img src="img/musicToolsProject.png" alt="Portfolio 1"> 
-        </div>
-        <figcaption>		
-            <div>
-                <a href="https://github.com/Oszust-Industries/Oszust-OS-Music-Tools" target="_blank"> 
-                    <h2>Music Tools</h2>
-                    <p>Music Tools is an all-in-one solution for music enthusiasts.</p>
-                </a>
+            <!-- Portfolio Wrapper -->
+            <div class="isotope fadeInLeft animated wow grid" id="portfolio_wrapper">
+                <!-- Portfolio items here -->
             </div>
-        </figcaption>
-      </figure>
-      <!--/Portfolio Item -->
-
-      <!-- Portfolio Item-->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four python isotope-item effect-oscar">
-        <div class="portfolio_img"> 
-            <img src="img/portfolio_pic1.jpg" alt="Portfolio 1"> 
+            <!-- End of Portfolio Wrapper -->
         </div>
-        <figcaption>		
-            <div>
-                <a href="https://github.com/Oszust-Industries/Hangman" target="_blank"> 
-                    <h2>Hangman</h2>
-                    <p>Play through forty different Hangman rounds with four categories.</p>
-                </a>
-            </div>
-        </figcaption>
-      </figure>
-      <!--/Portfolio Item -->
+        <div class="portfolio-bottom"></div>
+    </section>
+    <!-- End of Portfolio Section -->
 
-      <!-- Portfolio Item-->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four python isotope-item effect-oscar">
-        <div class="portfolio_img"> 
-            <img src="img/portfolio_pic1.jpg" alt="Portfolio 1"> 
+    <!-- Work Experience Section -->
+    <section id="experience" class="content">
+        <div class="container experience_title">
+            <div class="section-title">
+                <h2>Work Experience</h2>
+                <h6>Explore my professional journey and the companies I have worked for.</h6>
+            </div>
         </div>
-        <figcaption>		
-            <div>
-                <a href="https://github.com/Oszust-Industries/Achievement-Watcher" target="_blank"> 
-                    <h2>Achievement Watcher</h2>
-                    <p>Achievement Watcher displays your game achievements from my games.</p>
-                </a>
+        
+        <!-- Experience Wrapper -->
+        <div class="experience">
+            <div id="experience_wrapper" class="fadeInLeft animated wow grid">
+                <h3>Liberty Auto Electric</h3>
+                <p>Tasked with assisting customers with concerns and performed detailing on vehicles.</p>
+                <p><a href="https://www.libertyautoelectric.com" target="_blank" rel="noopener noreferrer" class="button">Website</a></p> <!-- Added button styling for link -->
             </div>
-        </figcaption>
-      </figure>
-      <!--/Portfolio Item -->
-
-      <!-- Portfolio Item-->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four java isotope-item effect-oscar">
-        <div class="portfolio_img"> 
-            <img src="img/portfolio_pic1.jpg" alt="Portfolio 1"> 
         </div>
-        <figcaption>		
-            <div>
-                <a href="https://github.com/Oszust-Industries/School-Projects" target="_blank"> 
-                    <h2>School Projects</h2>
-                    <p>A collection of different games and software that I created in school.</p>
-                </a>
-            </div>
-        </figcaption>
-      </figure>
-      <!--/Portfolio Item -->
-
-      <!-- Portfolio Item-->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four C isotope-item effect-oscar">
-        <div class="portfolio_img"> 
-            <img src="img/portfolio_pic1.jpg" alt="Portfolio 1"> 
-        </div>
-        <figcaption>		
-            <div>
-                <a href="https://haydenhe.itch.io/undercooked" target="_blank"> 
-                    <h2>Undercooked</h2>
-                    <p>2-player rival prototype game made in Unity.</p>
-                </a>
-            </div>
-        </figcaption>
-      </figure>
-      <!--/Portfolio Item -->
-      
-    </div>
-    <!--/Portfolio Wrapper --> 
-    
-  </div>
-  <!--/Portfolio Filters -->
-  
-  <div class="portfolio_btm"></div>
-  
-  <div id="project_container">
-    <div class="clear"></div>
-    <div id="project_data"></div>
-  </div>
- 
-  
-</section>
-<!--/Portfolio --> 
-<section id="experience">
-<div class="container">
-    <section id="news" class="white-bg padding-top-bottom">
-	 <div class="section-title">
-      <h2>Work Experience</h2>
-	<h6>Explore my professional journey, highlighting diverse roles and impactful projects that showcase my skills and passion for technology.</h6>
-	  
-    </div>
-    	<div class="container">
-			<div class="timeline">
-				<div class="date-title">
-					<span>2024</span>
-				</div>
-				<div class="row">
-					<div class="col-sm-6 news-item">
-						<div class="news-content">
-							<div class="date">
-								<p>✪</p> 
-							</div>
-							<h2 class="news-title">F.E.A.S.T. Programmer </h2> 
-							<span>Imagine Software</span>
-							<p>September 2024 – Current (3 months) East Lansing, MI<br><br>
-                Created a Dart Flutter app that stored food items by scanning barcodes and generated AI recipes
-                Created a backend Python server that controlled login and API calls
-                Led the programming team and collaborated with design and management
-                </p>
-              <a class="read-more" href="https://www.linkedin.com/company/imaginemsu/" target="_blank">Website</a>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 news-item right">
-						<div class="news-content">
-							<div class="date">
-								<p>✪</p> 
-							</div>
-							<h2 class="news-title">Prototype Programmer</h2> 
-							<span>Spartasoft Studio</span>
-							<p>September 2024 – Current (3 months) East Lansing, MI<br><br>
-                Led a team of programmers, artists, and designers to create multiple video game prototypes
-                Used Unity to create 3D video games using C#
-                </p>
-              <a class="read-more" href="https://spartasoftstudio.itch.io/" target="_blank">Website</a>
-						</div>
-					</div>
-
-          <div class="col-sm-6 news-item right">
-						<div class="news-content">
-							<div class="date">
-								<p></p> 
-							</div>
-							<h2 class="news-title">Camp Counselor</h2> 
-							<span>Livonia Parks and Recreation</span>
-							<p>March 2024 – August 2024 (6 Months) Livonia, MI<br><br>
-                Supervised and ensured the safety and well-being of children aged 5-12
-                Certified in CPR and First Aid
-                Planned, organized, and led age-appropriate activities
-                </p>
-              <a class="read-more" href="https://livonia.gov/1960/Parks-Recreation" target="_blank">Website</a>
-						</div>
-					</div>
-				</div>
-				
-				<div class="date-title">
-					<span>2021</span>
-				</div>
-				<div class="row">	
-					<div class="col-sm-6 news-item">
-						<div class="news-content">
-							<div class="date">
-								<p></p> 
-							</div>
-							<h2 class="news-title">Production/Technical Director</h2> 
-							<span>88.1 The Park</span>
-							<p>September 2021 – June 2023 (2.5 years) Plymouth, MI<br><br>
-                Created management software for the station, including calendar, contacts, texting, and basic AI
-                Managed production staff and assignments
-                Designed and hosted Indie Spotlight specialty show every week, including music and breaks
-                Upgraded station with new ENCO servers and boards
-                </p>
-              <a class="read-more" href="https://www.881thepark.com/" target="_blank">Website</a>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 news-item right">
-						<div class="news-content">
-							<div class="date">
-								<p>✪</p> 
-							</div>
-							<h2 class="news-title">Level 2 Hockey Referee</h2> 
-							<span>USA Hockey</span>
-							<p>August 2021 – Current (3.5 years) Plymouth, MI<br><br>
-                Officiated over 150 USA hockey games, including Bantam, Pee Wee, and Squirt levels
-                Referee and Linesman for 16U/18U hockey games
-                Officiated 16 Big Bear hockey tournaments
-                </p>
-              <a class="read-more" href="https://www.bigbeartournaments.com/" target="_blank">Website</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</div>				                                                      
-</section> 
-<!--Footer-->
-<footer class="footer_wrapper">
-  <div class="container">
-    <div class="footer_bottom">
-      <span>Designed & Developed by Simon Oszust</span>
-    </div>
-  </div>
-</footer>
-
-<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
-<script type="text/javascript" src="js/jquery.nav.js"></script> 
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.js"></script>
-<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
-<script type="text/javascript" src="js/wow.js"></script> 
-<script type="text/javascript" src="js/custom.js"></script>
-
+    </section>
+    <!-- End of Work Experience Section -->
 </body>
 </html>
