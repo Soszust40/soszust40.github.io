@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"> <!-- Added lang attribute for accessibility and SEO -->
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,7 +37,7 @@
                         <ul class="nav navbar-nav" id="mainNav">
                             <li class="active"><a href="#home" class="scroll-link">Home</a></li>
                             <li><a href="#service" class="scroll-link">My Skills</a></li>
-                            <li><a href="#portfolio" class="scroll-link">Portfolio</a></li> <!-- Changed to lowercase 'portfolio' for consistency -->
+                            <li><a href="#portfolio" class="scroll-link">Portfolio</a></li>
                             <li><a href="#experience" class="scroll-link">Experience</a></li>
                         </ul>
                     </div>
@@ -59,7 +59,7 @@
                             <img class="img-responsive" src="img/aboutMe.jpg" alt="Profile Picture of Simon Oszust"> <!-- Improved alt text for accessibility -->
                         </div>
                         <div class="col-md-8">
-                            <h4>My Journey</h4>
+                            <h4 class="grey-text">My Journey</h4>
                             <p>Welcome! I'm a dedicated developer with a passion for creating innovative solutions and bringing ideas to life through code. Over the years, I've sharpened my skills across various projects and technologies, constantly exploring new ways to improve and evolve my craft. From building mobile applications to developing computer software, each project has been an opportunity to learn and push my limits. I strive to make an impact with every line of code, turning complex problems into effective and efficient solutions.</p>
                             
                             <!-- Contact Information -->
@@ -165,7 +165,7 @@
                     <li><a id="all" href="#" data-filter="*" class="active"><h5>All</h5></a></li>
                     <li><a href="#" data-filter=".python"><h5>Python</h5></a></li>
                     <li><a href="#" data-filter=".java"><h5>Java</h5></a></li>
-                    <li><a href="#" data-filter=".c"><h5>C</h5></a></li> <!-- Lowercased 'C' to match CSS class convention -->
+                    <li><a href="#" data-filter=".c"><h5>C</h5></a></li>
                     <li><a href="#" data-filter=".other"><h5>Other</h5></a></li>
                 </ul>
             </div>
@@ -174,14 +174,17 @@
             <div class="isotope fadeInLeft animated wow grid" id="portfolio_wrapper">
                 <!-- Portfolio Item-->
                   <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four python isotope-item effect-oscar">
-                    <div class="col-md-4">
-                      <div class="portfolio_item">
-                          <img src="img/musicToolsProject.png" alt="Music Tools Screenshot" class="img-responsive">
-                          <h4>Music Tools</h4>
-                          <p>Music Tools is an all-in-one solution for music enthusiasts..</p>
-                          <a href="https://github.com/Oszust-Industries/Hangman" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Project</a>
-                      </div>
-                  </div>
+                    <div class="portfolio_img"> 
+                        <img src="img/musicToolsProject.png" alt="Portfolio 1"> 
+                    </div>
+                    <figcaption>		
+                        <div>
+                            <a href="https://github.com/Oszust-Industries/Oszust-OS-Music-Tools" target="_blank"> 
+                                <h2>Music Tools</h2>
+                                <p>Music Tools is an all-in-one solution for music enthusiasts.</p>
+                            </a>
+                        </div>
+                    </figcaption>
                   </figure>
                   <!--/Portfolio Item -->
 
@@ -232,17 +235,6 @@
                     </figcaption>
                   </figure>
                   <!--/Portfolio Item -->
-
-                  <div class="col-md-4">
-                    <div class="portfolio_item">
-                        <img src="img/project3.jpg" alt="Screenshot of Project 3" class="img-responsive">
-                        <h4>Project 3</h4>
-                        <p>Description of Project 3.</p>
-                        <a href="link_to_project_3" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Project</a>
-                    </div>
-                </div>
-
-
 
                   <!-- Portfolio Item-->
                   <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four C isotope-item effect-oscar">
