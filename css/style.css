@@ -10,19 +10,24 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color for contrast */
     padding-top: 50px; /* Space for fixed navbar */
 }
 
-h2, h3, h4, h5, h6 {
-    color: #333;
-    font-weight: bold;
+/* Links and Hover Effects */
+a {
+    color: #bb86fc; /* Light purple for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Header Section */
 #header_wrapper {
-    background-color: #333;
+    background-color: #1f1f1f; /* Dark header */
     color: white;
     padding: 20px 0;
 }
@@ -44,12 +49,12 @@ h2, h3, h4, h5, h6 {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    background-color: #555;
+    background-color: #333333;
 }
 
 /* About Me Section */
 #home {
-    background-color: white;
+    background-color: #1c1c1c; /* Dark background */
     padding: 50px 0;
 }
 
@@ -58,7 +63,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .about-me h2, .about-me h6 {
-    color: #333;
+    color: #e0e0e0; /* Light text color */
 }
 
 .about-me img {
@@ -73,6 +78,7 @@ h2, h3, h4, h5, h6 {
 
 .contact_info h4 {
     font-size: 18px;
+    color: #e0e0e0;
 }
 
 .social_links {
@@ -84,17 +90,17 @@ h2, h3, h4, h5, h6 {
 }
 
 .social_links li a {
-    color: #333;
+    color: #e0e0e0;
     font-size: 24px;
 }
 
 .social_links li a:hover {
-    color: #0077b5;
+    color: #bb86fc; /* Hover effect for social links */
 }
 
 /* My Skills Section */
 #service {
-    background-color: #f9f9f9;
+    background-color: #121212; /* Dark background */
     padding: 50px 0;
 }
 
@@ -107,39 +113,43 @@ h2, h3, h4, h5, h6 {
 .service_icon {
     font-size: 36px;
     margin-bottom: 10px;
+    color: #bb86fc; /* Light purple for icons */
 }
 
 .service_block h3 {
     font-size: 20px;
     margin-bottom: 10px;
+    color: #e0e0e0;
 }
 
 .service_block p {
-    color: #666;
+    color: #bbb;
 }
 
 /* Portfolio Section */
 #portfolio {
-    background-color: white;
+    background-color: #1c1c1c; /* Dark background */
     padding: 50px 0;
 }
 
 .portfolio_title h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #e0e0e0; /* Light text color */
 }
 
 .portfolio_title h6 {
     text-align: center;
     margin-bottom: 40px;
-    color: #666;
+    color: #bbb;
 }
 
 .portfolio-item {
     margin-bottom: 30px;
-    border: 1px solid #ddd;
+    border: 1px solid #444;
     border-radius: 8px;
     overflow: hidden;
+    background-color: #2c2c2c; /* Dark background for items */
 }
 
 .portfolio_img img {
@@ -152,16 +162,16 @@ h2, h3, h4, h5, h6 {
     margin-top: 10px;
     font-size: 18px;
     text-align: center;
+    color: #e0e0e0;
 }
 
 .portfolio-item p {
     text-align: center;
-    color: #666;
+    color: #bbb;
 }
 
 .portfolio-item a {
-    color: #0077b5;
-    text-decoration: none;
+    color: #bb86fc; /* Light purple for links */
 }
 
 .portfolio-item a:hover {
@@ -170,13 +180,14 @@ h2, h3, h4, h5, h6 {
 
 /* Work Experience Section */
 #experience {
-    background-color: #f4f4f4;
+    background-color: #121212; /* Dark background */
     padding: 50px 0;
 }
 
 .experience_title h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #e0e0e0; /* Light text color */
 }
 
 .timeline {
@@ -186,36 +197,36 @@ h2, h3, h4, h5, h6 {
 }
 
 .news-item {
-    background-color: white;
+    background-color: #1c1c1c; /* Dark background */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .news-item .date p {
     font-size: 24px;
     font-weight: bold;
-    color: #0077b5;
+    color: #bb86fc; /* Light purple for date */
 }
 
 .news-item h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    color: #e0e0e0;
 }
 
 .news-item span {
     font-size: 16px;
-    color: #777;
+    color: #bbb;
 }
 
 .news-item p {
     margin: 10px 0;
+    color: #bbb;
 }
 
 .news-item .read-more {
-    color: #0077b5;
-    text-decoration: none;
-    font-weight: bold;
+    color: #bb86fc; /* Light purple for links */
 }
 
 .news-item .read-more:hover {
@@ -224,15 +235,14 @@ h2, h3, h4, h5, h6 {
 
 /* Footer Section (if needed) */
 footer {
-    background-color: #333;
+    background-color: #1f1f1f; /* Dark footer */
     color: white;
     padding: 20px 0;
     text-align: center;
 }
 
 footer a {
-    color: white;
-    text-decoration: none;
+    color: #bb86fc; /* Light purple for footer links */
 }
 
 footer a:hover {
