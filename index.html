@@ -2,7 +2,8 @@
 <html lang="en"> <!-- Added lang attribute for accessibility and SEO -->
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Fixed max scale issue for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Welcome to the portfolio of Simon Oszust, a passionate coder and developer.">
     <title>Simon Oszust</title>
     <link rel="icon" href="favicon.png" type="image/png">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -58,7 +59,7 @@
                             <img class="img-responsive" src="img/aboutMe.jpg" alt="Profile Picture of Simon Oszust"> <!-- Improved alt text for accessibility -->
                         </div>
                         <div class="col-md-8">
-                            <h3>My Journey</h3>
+                            <h4>My Journey</h4>
                             <p>Welcome! I'm a dedicated developer with a passion for creating innovative solutions and bringing ideas to life through code. Over the years, I've sharpened my skills across various projects and technologies, constantly exploring new ways to improve and evolve my craft. From building mobile applications to developing computer software, each project has been an opportunity to learn and push my limits. I strive to make an impact with every line of code, turning complex problems into effective and efficient solutions.</p>
                             
                             <!-- Contact Information -->
@@ -173,17 +174,14 @@
             <div class="isotope fadeInLeft animated wow grid" id="portfolio_wrapper">
                 <!-- Portfolio Item-->
                   <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four python isotope-item effect-oscar">
-                    <div class="portfolio_img"> 
-                        <img src="img/musicToolsProject.png" alt="Portfolio 1"> 
-                    </div>
-                    <figcaption>		
-                        <div>
-                            <a href="https://github.com/Oszust-Industries/Oszust-OS-Music-Tools" target="_blank"> 
-                                <h2>Music Tools</h2>
-                                <p>Music Tools is an all-in-one solution for music enthusiasts.</p>
-                            </a>
-                        </div>
-                    </figcaption>
+                    <div class="col-md-4">
+                      <div class="portfolio_item">
+                          <img src="img/musicToolsProject.png" alt="Music Tools Screenshot" class="img-responsive">
+                          <h4>Music Tools</h4>
+                          <p>Music Tools is an all-in-one solution for music enthusiasts..</p>
+                          <a href="https://github.com/Oszust-Industries/Hangman" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Project</a>
+                      </div>
+                  </div>
                   </figure>
                   <!--/Portfolio Item -->
 
@@ -234,6 +232,17 @@
                     </figcaption>
                   </figure>
                   <!--/Portfolio Item -->
+
+                  <div class="col-md-4">
+                    <div class="portfolio_item">
+                        <img src="img/project3.jpg" alt="Screenshot of Project 3" class="img-responsive">
+                        <h4>Project 3</h4>
+                        <p>Description of Project 3.</p>
+                        <a href="link_to_project_3" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+
+
 
                   <!-- Portfolio Item-->
                   <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four C isotope-item effect-oscar">
