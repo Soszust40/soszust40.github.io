@@ -1580,10 +1580,22 @@ padding:80px 0 60px;
     overflow: hidden;
 }
 
-.portfolio-item .portfolio_img {
-    overflow: hidden;
-    display: block;
-    position: relative;
+.portfolio_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Set a fixed height */
+    overflow: hidden; /* Ensure overflow is hidden */
+}
+
+.portfolio-image {
+    width: 100%; /* Ensures the image takes up full width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100%; /* Ensure the image does not exceed the height of the container */
+}
+
+.portfolio-item {
+    text-align: center; /* Center align the text below the images */
 }
 
 .portfolio-item .portfolio_img img {
