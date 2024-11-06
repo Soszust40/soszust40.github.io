@@ -1532,16 +1532,6 @@ transition: all .3s;
     text-transform: uppercase;
 }
 
-.section-title h6 {
-    color: #FFDD57;
-    font-family: 'Raleway', sans-serif;
-    font-size: 34px;
-    letter-spacing: -1px;
-    margin: 0 0 15px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
 .section-title span {
     display: block;
     color: #888888;
