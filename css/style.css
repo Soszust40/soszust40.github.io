@@ -604,7 +604,7 @@ div#main-nav {
     background: url('../img/slide4.jpg') top left no-repeat !important;
 }
 #service h2{
-  color: #fff;
+  color: #FFDD57;
 
 }
 .service_wrapper {
@@ -1510,7 +1510,7 @@ transition: all .3s;
     padding: 10px 22px;
     text-transform: uppercase;
     transition: all 0.3s ease-in-out 0s;
-    background: #fff;
+    background: #1f1f1f;
     border: #C2C2C2 solid 1px;
     color: #7C7C7C;
 }
