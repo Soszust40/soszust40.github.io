@@ -305,7 +305,7 @@ p {
 ---------------------------------*/
 
 #header_wrapper {
-    background: #000;
+    background: #ffffff;
     padding: 15px 0px;
 	
 	box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.44);
@@ -2466,7 +2466,7 @@ section {
 }
 
 #header_wrapper, #footer_wrapper, .navbar, .footer_bottom {
-    background-color: #1A1A1A; /* Darker shades for header and footer */
+    background-color: #ffffff; /* Darker shades for header and footer */
 }
 
 /* Portfolio Item Styling Adjustments for Dark Theme */
