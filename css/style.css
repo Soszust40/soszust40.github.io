@@ -1382,11 +1382,12 @@ transition: all .3s;
 ---------------------------------*/
 
 .footer_wrapper {
-    background: #000000;
+    background: #3C3A3A;
 }
 
 .footer_bottom {
     border-top: 1px solid #3C3A3A;
+    padding: 25px 0;
 }
 
 .footer_bottom span {
