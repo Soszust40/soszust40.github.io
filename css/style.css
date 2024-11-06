@@ -1120,17 +1120,14 @@ margin-bottom: 5px;
     color: #55acee;
 }
 
-.team_box ul li a.fa-facebook:hover {
+.team_box ul li a.fa-linkedin:hover {
     color: #3b5998;
 }
 
-.team_box ul li a.fa-pinterest:hover {
-    color: #cb2026;
+.team_box ul li a.fa-github:hover {
+    color: #7814d5;
 }
 
-.team_box ul li a.fa-google-plus:hover {
-    color: #dd4b39;
-}
  .img-circle {
 border-radius: 50%;
 }
@@ -1294,18 +1291,13 @@ transition: all .3s;
     color: #55acee;
 }
 
-.facebook a:hover {
+.linkedin a:hover {
     color: #3b5998;
 }
 
-.pinterest a:hover {
-    color: #cb2026;
+.github a:hover {
+    color: #7814d5;
 }
-
-.gplus a:hover {
-    color: #dd4b39;
-}
- 
 
 .form {
     margin: 0 66px 0 30px;
