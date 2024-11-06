@@ -1238,6 +1238,27 @@ transition: all .3s;
     line-height: 20px;
 }
 
+.journey {
+    font-size: 15px;
+    margin: 0 0 0 20px;
+    padding-left: 0;
+}
+
+.journey  h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 30px;
+    color: #fff;
+}
+
+.journey p {
+    line-height: 28px;
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0 0 30px;
+}
+
 .contact_info {
     font-size: 15px;
     margin: 0 0 0 20px;
