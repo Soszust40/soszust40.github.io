@@ -2553,5 +2553,5 @@ section {
 figcaption h2 {
     color: gold; /* Sets the text color to gold */
     -webkit-text-stroke: 2px black; /* Adds a 1px black stroke around the text (for Webkit browsers) */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Optional black stroke */
+    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Optional black stroke */
 }
