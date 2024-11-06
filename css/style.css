@@ -1502,7 +1502,7 @@ transition: all .3s;
 }
 
 .section-title h2 {
-    color: #222222;
+    color: #ffffff;
     font-family: 'Raleway', sans-serif;
     font-size: 34px;
     letter-spacing: -1px;
@@ -2101,7 +2101,15 @@ div.mc-image {
     line-height:24px;
 }
 
-.experience-content .experience-title{
+.experience-title{
+    font-size:24px;
+    font-weight:300;
+    text-align: left;
+    margin-bottom: 4px;
+    color: #FFDD57;
+}
+
+.experience-content{
     font-size:24px;
     font-weight:300;
     text-align: left;
