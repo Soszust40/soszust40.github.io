@@ -1497,7 +1497,7 @@ transition: all .3s;
     background: #000000;
     color: #FEE16F;
     text-decoration: none;
-    border: #000000 solid 1px;
+    border: #000000 solid 3px;
 }
 
 .section-title h2 {
@@ -1940,7 +1940,7 @@ div.mc-image {
 }
 
 /*-------------------
------News Styles-----
+-----experience Styles-----
 ---------------------*/    
 .timeline{
     position:relative;
@@ -1986,16 +1986,16 @@ div.mc-image {
     border-radius:5px;
 }
 
-.news-item {
+.experience-item {
     padding-bottom:45px;
 }
 
-.news-item.right {
+.experience-item.right {
     float:right;
     margin-top:40px;
 }
 
-.news-item .news-content {
+.experience-item .experience-content {
     margin:20px 30px 0 0;
     position:relative;
     padding:30px;
@@ -2007,17 +2007,17 @@ div.mc-image {
     transition:all .3s ease-out;
 }
 
-.news-item:hover .news-content {
+.experience-item:hover .experience-content {
     background: #000000;
     color:#fff;
 }
 
-.news-item.right .news-content {
+.experience-item.right .experience-content {
     margin:20px 0 0 30px;
     box-shadow:5px 5px 0 rgba(0,0,0,0.08);
 }
 
-.news-item .news-content:after {
+.experience-item .experience-content:after {
     display:block;
     content:"";
     position:absolute;
@@ -2032,7 +2032,7 @@ div.mc-image {
     transition:border-left-color .3s ease-out;
 }
 
-.news-item.right .news-content:after {
+.experience-item.right .experience-content:after {
     position:absolute;
     left:-40px;
     right:auto;
@@ -2042,16 +2042,16 @@ div.mc-image {
     transition:border-right-color .3s ease-out;
 }
 
-.news-item:hover .news-content:after {
+.experience-item:hover .experience-content:after {
     border-left-color: #000000;
 }
 
-.news-item.right:hover .news-content:after {
+.experience-item.right:hover .experience-content:after {
     border-left-color:transparent;
     border-right-color: #000000;
 }
 
-.news-item .news-content:before {
+.experience-item .experience-content:before {
     display:block;
     content:"";
     position:absolute;
@@ -2066,12 +2066,12 @@ div.mc-image {
     transition:background .3s ease-out;
 }
 
-.news-item.right .news-content:before {
+.experience-item.right .experience-content:before {
     left:-55px;
     right:auto;
 }
 
-.news-content .date {
+.experience-content .date {
     position:absolute;
     width:80px;
     height:80px;
@@ -2082,25 +2082,25 @@ div.mc-image {
     transition:color .3s ease-out;
 }
 
-.news-item:hover .news-content .date {
+.experience-item:hover .experience-content .date {
     color:#fff;
 }
 
-.news-content .date p{
+.experience-content .date p{
     margin:0;
     font-size: 38px;
     font-weight: 400;
     line-height:48px;
 }
 
-.news-content .date small{
+.experience-content .date small{
     margin:0;
     font-size:26px;
     font-weight:300;
     line-height:24px;
 }
 
-.news-content .news-title{
+.experience-content .experience-title{
     font-size:24px;
     font-weight:300;
     text-align: left;
@@ -2108,7 +2108,7 @@ div.mc-image {
     color: #FFFFFF;
 }
 
-.news-content p{
+.experience-content p{
     font-size:16px;
     line-height:24px;
     font-weight:300;
@@ -2116,10 +2116,10 @@ div.mc-image {
     margin-bottom:10px;
 }
 
-.news-content .read-more,
-.news-content .read-more:hover,
-.news-content .read-more:active,
-.news-content .read-more:focus{
+.experience-content .read-more,
+.experience-content .read-more:hover,
+.experience-content .read-more:active,
+.experience-content .read-more:focus{
     padding:10px 0;
     text-decoration:none;
     font-size:16px;
@@ -2127,23 +2127,23 @@ div.mc-image {
     line-height:24px;
 }
 
-.news-item:hover .news-content .read-more,
-.news-item:hover .news-content .read-more:hover,
-.news-item:hover .news-content .read-more:active,
-.news-item:hover .news-content .read-more:focus{
+.experience-item:hover .experience-content .read-more,
+.experience-item:hover .experience-content .read-more:hover,
+.experience-item:hover .experience-content .read-more:active,
+.experience-item:hover .experience-content .read-more:focus{
     color:#fff;
 }
 
-.news-content .read-more{
+.experience-content .read-more{
     -webkit-transition:padding .3s ease-out;
     transition:padding .3s ease-out;
 }
 
-.news-content .read-more:hover {
+.experience-content .read-more:hover {
     padding-left:7px;
 }
 
-.news-content .read-more:after{
+.experience-content .read-more:after{
     content:'\f054';
     padding-left:15px;
     font-family:'FontAwesome';
@@ -2155,15 +2155,15 @@ div.mc-image {
     transition:padding .3s ease-out;
 }
 
-.news-content .read-more:hover:after{
+.experience-content .read-more:hover:after{
     padding-left:20px;
 }
 
-.news-item:hover .news-content .read-more:after{
+.experience-item:hover .experience-content .read-more:after{
     color:#fff;
 }
 
-.news-content .news-media{
+.experience-content .experience-media{
     position:absolute;
     width:80px;
     bottom:-45px;
@@ -2171,14 +2171,14 @@ div.mc-image {
     border-radius:8px;
 }
 
-.news-content .news-media img{
+.experience-content .experience-media img{
     border-radius:8px;
     transform:scale(1);
     -webkit-transition:-webkit-transform .3s ease-out;
     transition:transform .3s ease-out;
 }
 
-.news-content .news-media a{
+.experience-content .experience-media a{
     display:block;
 	text-decoration:none;
     background:#fff;
@@ -2186,12 +2186,12 @@ div.mc-image {
     overflow:hidden;
 }
 
-.news-content .news-media a:hover img{
+.experience-content .experience-media a:hover img{
     -webkit-transform:scale(1.3);
     transform:scale(1.3);
 }
 
-.news-content .news-media a:after{
+.experience-content .experience-media a:after{
     content:'\f065';
     position:absolute;
     width:100%;
@@ -2209,17 +2209,17 @@ div.mc-image {
     transition:all .2s ease-out .1s;
 }
 
-.news-content .news-media.video a:after{
+.experience-content .experience-media.video a:after{
     content:'\f04b';
 }
 
-.news-content .news-media a:hover:after{
+.experience-content .experience-media a:hover:after{
     -webkit-transform:scale(1);
     transform:scale(1);
     opacity:1;
 }
 
-.news-content .news-media.gallery{
+.experience-content .experience-media.gallery{
     box-shadow:4px 4px 0 #bbb,8px 8px 0 #ddd;
 }
                                
