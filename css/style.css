@@ -604,7 +604,7 @@ div#main-nav {
     background: url('../img/slide4.jpg') top left no-repeat !important;
 }
 #service h2{
-  color: #FFDD57;
+  color: #fff;
 
 }
 .service_wrapper {
@@ -655,9 +655,11 @@ text-align: center;
     color: #fff;
 margin: 35px 0 15px; 
 }
+
 #service h6{
-color:#fff;
+color:#FFDD57;
 }
+
 .service_block p {
     font-size: 16px;
     color: #A5A5A5;
@@ -2546,4 +2548,10 @@ section {
 /* Remove overlay effect */
 .item_overlay, .project_name, .project_catg, .zoom-icon {
     display: none; /* Completely hide overlay elements */
+}
+
+figcaption h2 {
+    color: gold; /* Sets the text color to gold */
+    -webkit-text-stroke: 2px black; /* Adds a 1px black stroke around the text (for Webkit browsers) */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Optional black stroke */
 }
