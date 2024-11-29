@@ -201,16 +201,6 @@ figure.effect-oscar img {
 	transition: opacity 0.35s;
 }
 
-figure.effect-oscar figcaption::before {
-	position: absolute;
-	top: 30px;
-	right: 30px;
-	bottom: 30px;
-	left: 30px;
-	border: 1px solid #fff;
-	content: '';
-}
-
 figure.effect-oscar h2 {
 	margin: 20% 0 10px 0;
 	-webkit-transition: -webkit-transform 0.35s;
