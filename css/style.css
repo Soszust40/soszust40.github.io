@@ -784,8 +784,6 @@ a.contact_btn:hover {
     color: #222222;
     border-radius: 4px;
     text-transform: uppercase;
-    /*background: #f7f7f7;*/
-    margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -793,7 +791,7 @@ a.contact_btn:hover {
 
 .Portfolio-nav li a:hover {
     background: #ED5441;
-    /*color: #fff;*/
+    color: #fff;
     text-decoration: none;
 }
 
