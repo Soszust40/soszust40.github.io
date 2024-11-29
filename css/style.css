@@ -776,19 +776,6 @@ a.contact_btn:hover {
     display: inline;
 }
 
-.Portfolio-nav li a {
-    display: inline-block;
-    padding: 10px 22px;
-    font-size: 12px;
-    line-height: 20px;
-    color: #222222;
-    border-radius: 4px;
-    text-transform: uppercase;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-}
-
 .Portfolio-nav li a:hover {
     background: #ED5441;
     color: #fff;
