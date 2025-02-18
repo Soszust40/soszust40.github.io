@@ -393,11 +393,6 @@ div#main-nav {
 	float: initial !important
 }
 
-#service {
-	padding: 60px 0;
-	background: url(../img/slide4.jpg) top left no-repeat !important
-}
-
 #service h2 {
 	color: #fff
 }
@@ -1544,9 +1539,9 @@ section {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 0px;
-    border-radius: 8px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
-	transition: none
+	transition: none;
+	border: 1px solid silver;
 }
 
 .portfolio_img img {
@@ -1615,4 +1610,45 @@ figcaption p {
 
 .experience-item ul li {
 	font-size: 17px
+}
+
+#awards {
+    padding: 50px 0;
+    
+}
+
+.awards_title .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.award-item {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.award-icon {
+    font-size: 40px;
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+.award-details h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.award-details p {
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    .award-item {
+        margin-bottom: 20px;
+    }
 }
