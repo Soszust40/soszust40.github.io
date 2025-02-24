@@ -110,6 +110,7 @@ a:hover {
 }
 
 .grid figure h2,
+.grid figure h1,
 .grid figure p {
 	margin: 0
 }
@@ -147,6 +148,24 @@ figure.effect-oscar p {
 	transform: scale(0)
 }
 
+figure.effect-oscar figcaption::before,
+figure.effect-oscar i {
+	opacity: 0;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: scale(0);
+	transform: scale(0)
+}
+
+figure.effect-oscar figcaption::before,
+figure.effect-oscar h1 {
+	opacity: 0;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: scale(0);
+	transform: scale(0)
+}
+
 figure.effect-oscar:hover h2 {
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
@@ -159,6 +178,20 @@ figure.effect-oscar:hover p {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	color: #fff
+}
+
+figure.effect-oscar:hover figcaption::before,
+figure.effect-oscar:hover h1 {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-oscar:hover figcaption::before,
+figure.effect-oscar:hover i {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
 
 figure.effect-oscar:hover figcaption {
@@ -1439,15 +1472,33 @@ div#main-nav {
 	gap: 20px
 }
 
-
-
 .portfolio-item h2 {
 	font-size: 1.2em;
 	margin-top: 10px;
 	color: #222
 }
 
+.portfolio-item h1 {
+	font-size: .6em;
+	margin-top: 5px;
+	color: #ffdd57
+}
+
 .portfolio-item p {
+	color: #666;
+	font-size: .9em;
+	line-height: 1.4em;
+	margin-top: 5px
+}
+
+.portfolio-item i {
+	color: #eee;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	margin: 10px;
+}
+
+.devicon-threedsmax-plain {
 	color: #666;
 	font-size: .9em;
 	line-height: 1.4em;
@@ -1552,6 +1603,7 @@ section {
 }
 
 .portfolio-item h2,
+.portfolio-item h1,
 .portfolio-item p {
 	margin: 5px 0
 }
@@ -1592,6 +1644,16 @@ figcaption h2 {
 }
 
 figcaption p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-shadow: -1px -1px 5px #111, 1px -1px 5px #111, -1px 1px 5px #111, 1px 1px 5px #111
+}
+
+figcaption h1 {
+	text-shadow: -1px -1px 5px #111, 1px -1px 5px #111, -1px 1px 5px #111, 1px 1px 5px #111
+}
+
+figcaption i {
 	text-shadow: -1px -1px 5px #111, 1px -1px 5px #111, -1px 1px 5px #111, 1px 1px 5px #111
 }
 
