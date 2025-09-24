@@ -69,6 +69,17 @@ a:hover {
 	opacity: .8
 }
 
+.img-responsive {
+  position: relative;
+  display: block;
+  width: 100%;         /* responsive scaling */
+  max-width: 400px;    /* cap the max size */
+  height: auto;        /* keep aspect ratio */
+  opacity: 0.8;
+  border-radius: 12px; /* rounded corners */
+  margin: 0 auto;      /* center when smaller than container */
+}
+
 .grid figure figcaption {
 	padding: 2em;
 	color: #fff;
@@ -794,32 +805,45 @@ div#main-nav {
 }
 
 .social_links {
-	padding: 0;
-	margin: 0;
-	display: block;
-	overflow: hidden;
-	list-style: none
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
 }
 
 .social_links li {
-	float: left;
-	margin-right: 4px
+  float: left;
+  margin-right: 4px;
 }
 
 .social_links li a {
-	display: block;
-	width: 50px;
-	height: 50px;
-	text-align: center;
-	line-height: 50px;
-	font-size: 25px;
-	color: #fff
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  color: #fff;
 }
 
 .social_links li a:focus,
 .social_links li a:hover {
-	text-decoration: none;
-	border-radius: 80px
+  text-decoration: none;
+  border-radius: 80px;
+}
+
+/* On small screens: center social icons */
+@media (max-width: 600px) {
+  .social_links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .social_links li {
+    float: none;
+    margin: 4px;
+  }
 }
 
 .twitter a:hover {
@@ -1382,10 +1406,6 @@ div#main-nav {
 
 	#filters ul {
 		padding-left: 0
-	}
-
-	.social_links li {
-		float: left
 	}
 
 	.contact_section {
