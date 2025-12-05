@@ -274,17 +274,17 @@ p {
 	border: 0 solid #fff;
 	min-height: 40px;
 	margin-bottom: 0;
-    text-decoration: underline; /* Remove default underline */
-    color: inherit; /* Use the inherited text color */
+    text-decoration: underline;
+    color: inherit;
 }
 
 .navbar a {
-    text-decoration: none; /* Remove default underline */
-    color: inherit; /* Inherit the color */
+    text-decoration: none;
+    color: inherit;
 }
 
 .navbar a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline;
 }
 
 .navbar-inverse .navbar-nav>li>a {
