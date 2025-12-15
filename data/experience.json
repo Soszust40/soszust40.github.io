@@ -1,0 +1,114 @@
+[
+  {
+    "year": "2025",
+    "jobs": [
+      {
+        "title": "Information Technology Intern",
+        "company": "Walbridge",
+        "logo": "img/Logos/walbridge.png",
+        "startDate": "May 2025",
+        "endDate": "August 2025",
+        "location": "Detroit, MI",
+        "description": [
+          "Decommissioned retired laptops and staged 200+ laptops by using Ivanti to install essential software, configure authentication, and remotely push security patches and shipped devices on schedule",
+          "Coordinated with clients to schedule remote sessions via Screen Connect to resolve various PC and technical support issues",
+          "Tracked laptop setup progress with custom Excel sheets and Track-It!, and communicated updates to team leads using Teams and Outlook"
+        ],
+        "tags": ["Ivanti", "Excel", "Tech Support", "Networking"],
+        "link": "https://www.walbridge.com/",
+        "side": "left"
+      }
+    ]
+  },
+  {
+    "year": "2024",
+    "jobs": [
+      {
+        "title": "Software Engineer",
+        "company": "FEAST Solutions LLC",
+        "logo": "img/Logos/feast.png",
+        "startDate": "September 2024",
+        "endDate": "Current",
+        "location": "Commerce Township, MI",
+        "description": [
+          "Created a Dart Flutter app that stored food items by scanning barcodes and generated AI recipes",
+          "Created a backend Python server that controlled login and API calls",
+          "Managed Apple TestFlight and organized GitHub tasks for team programming workflows",
+          "Led the programming team and collaborated with design and management"
+        ],
+        "tags": ["Flutter", "Dart", "Python", "API", "Git"],
+        "link": "https://www.usefeast.com/",
+        "side": "left"
+      },
+      {
+        "title": "Prototype Programmer",
+        "company": "Spartasoft Studio",
+        "logo": "img/Logos/spartasoft.png",
+        "startDate": "September 2024",
+        "endDate": "February 2025",
+        "location": "East Lansing, MI",
+        "description": [
+          "Led a team of programmers, artists, and designers to create multiple video game prototypes",
+          "Used Unity to create 3D video games using C#"
+        ],
+        "tags": ["Unity", "C#", "Game Design", "Team Leadership"],
+        "link": "https://spartasoftstudio.itch.io/",
+        "side": "right"
+      },
+      {
+        "title": "Camp Counselor",
+        "company": "Livonia Parks and Recreation",
+        "logo": "img/Logos/livonia.png",
+        "startDate": "March 2024",
+        "endDate": "December 2024",
+        "location": "Livonia, MI",
+        "description": [
+          "Supervised and ensured the safety and well-being of children aged 5-12",
+          "Certified in CPR and First Aid",
+          "Planned, organized, and led age-appropriate activities"
+        ],
+        "tags": ["Leadership", "Communication", "CPR Certified"],
+        "link": "https://livonia.gov/1960/Parks-Recreation",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "year": "2021",
+    "jobs": [
+      {
+        "title": "Production / Technical Director",
+        "company": "88.1 The Park",
+        "logo": "img/Logos/881ThePark.png",
+        "startDate": "September 2021",
+        "endDate": "June 2023",
+        "location": "Plymouth, MI",
+        "description": [
+          "Created management software for the station, including calendar, contacts, texting, and basic AI",
+          "Managed production staff and assignments",
+          "Designed and hosted Indie Spotlight specialty show every week, including music and breaks",
+          "Upgraded station with new ENCO servers and boards"
+        ],
+        "tags": ["Audio Engineering", "Management", "Software Dev"],
+        "link": "https://www.881thepark.com/",
+        "side": "left"
+      },
+      {
+        "title": "Level 3 Hockey Referee",
+        "company": "USA Hockey",
+        "logo": "img/Logos/usaHockey.png",
+        "startDate": "August 2021",
+        "endDate": "Current",
+        "location": "Plymouth, MI",
+        "description": [
+          "Officiated over 250 USA hockey games, including Bantam, Pee Wee, and Squirt levels",
+          "Referee and Linesman for 16U/18U hockey games",
+          "Officiated 20 Big Bear hockey tournaments"
+        ],
+        "tags": ["Conflict Resolution", "Decision Making"],
+        "link": "https://www.bigbeartournaments.com/",
+        "side": "right"
+      }
+    ]
+  }
+]

@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Welcome to the portfolio of Simon Oszust, a passionate coder and developer.">
     <title>Simon Oszust</title>
+    <meta property="og:title" content="Simon Oszust | Software Engineer">
+    <meta property="og:description" content="Portfolio of Simon Oszust. Specializing in software and mobile development.">
+    <meta property="og:image" content="https://soszust40.us/favicon.png">
+    <meta property="og:url" content="https://soszust40.us/">
+    <meta property="og:type" content="website">
+    <!-- Icons -->
     <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <link rel="shortcut icon" href="./favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <meta name="apple-mobile-web-app-title" content="soszust40">
     <link rel="manifest" href="./site.webmanifest">
+    <!-- CSS Files -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
 </head>
@@ -37,11 +44,10 @@
                     <div id="main-nav" class="collapse navbar-collapse navStyle">
                         <ul class="nav navbar-nav" id="mainNav">
                             <li class="active"><a href="#home" class="scroll-link">Home</a></li>
-                            <li><a href="#service" class="scroll-link">My Skills</a></li>
+                            <li><a href="#skills" class="scroll-link">Skills</a></li>
                             <li><a href="#portfolio" class="scroll-link">Portfolio</a></li>
                             <li><a href="#experience" class="scroll-link">Experience</a></li>
                             <li><a href="#awards" class="scroll-link">Certifications</a></li>
-                            <li><a href="https://soszust40.us/WebTools">WebTools</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -55,7 +61,7 @@
         <div class="inner_wrapper about-me fadeInLeft animated wow">
             <div class="container">
                 <div class="section-title">
-                    <h2>About Me</h2>
+                    <h2>Simon Oszust</h2>
                     <h6>A coder passionate about technology and creative problem-solving.</h6>
                 </div>
                 <div class="inner_section">
@@ -90,12 +96,12 @@
                             <ul class="social_links mt-3">
                                 <li class="github animated bounceIn wow delay-02s">
                                     <a href="https://github.com/Soszust40" target="_blank" rel="noopener noreferrer">
-                                        <i class="fa fa-github"></i>
+                                        <i class="fa-brands fa-github"></i>
                                     </a>
                                 </li>
                                 <li class="linkedin animated bounceIn wow delay-02s">
                                     <a href="https://www.linkedin.com/in/simon-oszust" target="_blank" rel="noopener noreferrer">
-                                        <i class="fa fa-linkedin"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -108,49 +114,26 @@
     <!-- End of About Me Section -->
 
     <!-- My Skills Section -->
-    <section id="service">
+    <section id="skills">
         <div class="container">
             <div class="section-title">
                 <h2>My Skills</h2>
-                <h6>Explore my skills and experience in coding, design, productivity tools, and leadership.</h6>
+                <h6>A comprehensive overview of my technical proficiency and professional tools.</h6>
             </div>
-            <div class="service_wrapper">
-                <div class="row no-wrap">
-                    <div class="col-md-3">
-                        <div class="service_icon delay-03s animated wow zoomIn">
-                            <span><i class="fa fa-code"></i></span>
-                        </div>
-                        <div class="service_block">
-                            <h3 class="animated fadeInUp wow">Programming Languages</h3>
-                            <p class="animated fadeInDown wow">I have experience in Python, C++, C#, Java, JavaScript, Assembly, Dart, and Swift.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="service_icon icon3 delay-03s animated wow zoomIn">
-                            <span><i class="fa fa-crosshairs"></i></span>
-                        </div>
-                        <div class="service_block">
-                            <h3 class="animated fadeInUp wow">Adobe</h3>
-                            <p class="animated fadeInDown wow">I've created Photoshop, Audition, Premiere Pro, and After Effects products for various social media companies.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="service_icon icon3 delay-03s animated wow zoomIn">
-                            <span><i class="fa fa-briefcase"></i></span>
-                        </div>
-                        <div class="service_block">
-                            <h3 class="animated fadeInUp wow">Google Suite & Microsoft Office</h3>
-                            <p class="animated fadeInDown wow">I have over 8 years of experience with Microsoft Office and Google Drive.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="service_icon icon3 delay-03s animated wow zoomIn">
-                            <span><i class="fa fa-user"></i></span>
-                        </div>
-                        <div class="service_block">
-                            <h3 class="animated fadeInUp wow">Leadership</h3>
-                            <p class="animated fadeInDown wow">I've held multiple leadership roles and excel in problem-solving.</p>
-                        </div>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="skill-category-title"><i class="fa fa-code"></i> Coding Proficiency</h3>
+                    <div id="coding-skills-container"></div> 
+                </div>
+
+                <div class="col-md-6">
+                    <h3 class="skill-category-title"><i class="fa fa-wrench"></i> Creative & Productivity Tools</h3>
+                    <div id="tools-skills-container" class="tools-grid wow fadeInRight" data-wow-delay="0.2s"></div>
+
+                    <div class="soft-skills-box wow fadeInUp" data-wow-delay="0.4s">
+                        <h3 class="skill-category-title" style="margin-top: 30px;"><i class="fa fa-users"></i> Leadership & Impact</h3>
+                        <ul id="leadership-skills-container" class="soft-skills-list"></ul>
                     </div>
                 </div>
             </div>
@@ -168,167 +151,21 @@
         </div>
         <div class="portfolio-top"></div>
 
-    <!-- Portfolio Filters -->
-    <div class="portfolio">
-        <div id="filters" class="sixteen columns">
-            <ul class="clearfix">
-                <li><a id="all" href="#" data-filter="*" class="active"><h5>All</h5></a></li>
-                <li><a href="#" data-filter=".python"><h5>Python</h5></a></li>
-                <li><a href="#" data-filter=".java"><h5>Java</h5></a></li>
-                <li><a href="#" data-filter=".C"><h5>C</h5></a></li>
-                <li><a href="#" data-filter=".other"><h5>Other</h5></a></li>
-            </ul>
+        <div class="portfolio">
+            <div id="filters" class="sixteen columns">
+                <ul class="clearfix">
+                    <li><a id="all" href="#" data-filter="*" class="active"><h5>All</h5></a></li>
+                    <li><a href="#" data-filter=".python"><h5>Python</h5></a></li>
+                    <li><a href="#" data-filter=".java"><h5>Java</h5></a></li>
+                    <li><a href="#" data-filter=".C"><h5>C</h5></a></li>
+                    <li><a href="#" data-filter=".other"><h5>Other</h5></a></li>
+                </ul>
+            </div>
+
+            <div class="isotope fadeInLeft animated wow grid" id="portfolio_wrapper">
+                </div>
         </div>
-
-        <!-- Portfolio Wrapper -->
-        <div class="isotope fadeInLeft animated wow grid" id="portfolio_wrapper">
-
-            <!-- Portfolio Item-->
-            <figure class="portfolio-item one-four python isotope-item effect-oscar">
-                <div class="portfolio_img"> 
-                    <img src="img/Projects/dinoGameProject.png" alt="Dino Game Screenshot" class="portfolio-image"> 
-                </div>
-                <figcaption>		
-                    <div>
-                        <a href="https://github.com/Soszust40/Dino-Game" target="_blank">
-                            <i class="devicon-python-plain"></i>
-                            <h2>Dino Game</h2>
-                            <h1>February 2025 - November 2025</h1>
-                            <p>A clone of the Google's Dino game, featuring both an AI-powered mode and a manual player mode. The AI is trained using NEAT.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item -->
-
-            <!-- Portfolio Item-->
-            <figure class="portfolio-item one-four python isotope-item effect-oscar">
-                <div class="portfolio_img"> 
-                    <img src="img/Projects/hangmanProject.png" alt="Hangman Screenshot" class="portfolio-image"> 
-                </div>
-                <figcaption>		
-                    <div>
-                        <a href="https://github.com/Oszust-Industries/Hangman" target="_blank"> 
-                            <i class="devicon-python-plain"></i>
-                            <h2>Hangman</h2>
-                            <h1>February 2025 - August 2025</h1>
-                            <p>A PyQt6-based Hangman game featuring multiple game modes, an achievement system, and a selection of hundreds of words.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item -->
-
-            <!-- Portfolio Item-->
-            <figure class="portfolio-item one-four python isotope-item effect-oscar">
-                <div class="portfolio_img"> 
-                    <img src="img/Projects/musicToolsProject.png" alt="Music Tools Screenshot" class="portfolio-image"> 
-                </div>
-                <figcaption>		
-                    <div>
-                        <a href="https://github.com/Oszust-Industries/Oszust-OS-Music-Tools" target="_blank">
-                            <i class="devicon-python-plain"></i><i class="devicon-php-plain"></i><i class="devicon-notion-plain"></i>
-                            <h2>Music Tools</h2>
-                            <h1>Janurary 2023 - Janurary 2025</h1>
-                            <p>Music Tools is an all-in-one solution for music enthusiasts.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item -->
-
-            <!-- Portfolio Item -->
-            <figure class="portfolio-item one-four python isotope-item effect-oscar">
-                <div class="portfolio_img"> 
-                    <img src="img/Projects/xibalbaTempleProject.png" alt="Xibalba Temple Screenshot" class="portfolio-image"> 
-                </div>
-                <figcaption>		
-                    <div>
-                        <a href="https://youtu.be/7BgXSeOZ1w4" target="_blank">
-                            <i class="devicon-csharp-plain"></i><i class="devicon-gitlab-plain"></i><i class="devicon-unity-plain"></i>
-                            <h2>Temple of Xibalba</h2>
-                            <h1>October 2024 - December 2024</h1>
-                            <p>Temple treasure adventure game made in Unity.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item -->
-
-            <!-- Portfolio Item-->
-            <figure class="portfolio-item one-four other isotope-item effect-oscar">
-                <div class="portfolio_img">
-                    <img src="img/Projects/schoolDafnyProject.png" alt="Largest Monotonic Island Screenshot" class="portfolio-image"> 
-                </div>
-                <figcaption>		
-                    <div>
-                        <a href="https://github.com/Soszust40/School/blob/main/README.md#largest-monotonic-island-dafny" target="_blank"> 
-                            <h2>Largest Monotonic Island - Dafny</h2>
-                            <h1>November 2024</h1>
-                            <p>A Dafny project to verify and find the largest contiguous monotonic island in an array of integers.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item -->
-
-            <!-- Portfolio Item-->
-            <figure class="portfolio-item one-four C isotope-item effect-oscar">
-                <div class="portfolio_img"> 
-                    <img src="img/Projects/undercookedProject.png" alt="Undercooked Screenshot" class="portfolio-image"> 
-                </div>
-                <figcaption>		
-                    <div>
-                        <a href="https://haydenhe.itch.io/undercooked" target="_blank">
-                            <i class="devicon-csharp-plain"></i><i class="devicon-gitlab-plain"></i><i class="devicon-unity-plain"></i>
-                            <h2>Undercooked</h2>
-                            <h1>September 2024 - October 2024</h1>
-                            <p>2-player rival prototype game made in Unity.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item -->
-
-            <!-- Portfolio Item-->
-            <figure class="portfolio-item one-four java C python isotope-item effect-oscar">
-                <div class="portfolio_img"> 
-                    <img src="img/Projects/schoolProjects.png" alt="School Projects Screenshot" class="portfolio-image"> 
-                </div>
-                <figcaption>		
-                    <div>
-                        <a href="https://github.com/Soszust40/School" target="_blank">
-                            <i class="devicon-python-plain"></i><i class="devicon-java-plain"></i><i class="devicon-cplusplus-plain"></i>
-                            <h2>School Projects</h2>
-                            <h1>May 2021 - Current</h1>
-                            <p>A collection of different games and software that I created while in school.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item -->
-
-            <!-- Portfolio Item-->
-            <figure class="portfolio-item one-four python isotope-item effect-oscar">
-                <div class="portfolio_img"> 
-                    <img src="img/Projects/achievementWatcherProject.png" alt="Achievement Watcher Screenshot" class="portfolio-image"> 
-                </div>
-                <figcaption>		
-                    <div>
-                        <a href="https://github.com/Oszust-Industries/Achievement-Watcher" target="_blank">
-                            <i class="devicon-python-plain"></i>
-                            <h2>Achievement Watcher</h2>
-                            <h1>July 2021 - August 2021</h1>
-                            <p>Achievement Watcher displays your game achievements from my games.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item -->
-        </div>
-        <!-- End of Portfolio Wrapper -->
-    </div>
-    <div class="portfolio-bottom"></div>
+        <div class="portfolio-bottom"></div>
   </section>
   <!-- End of Portfolio Section -->
 
@@ -341,128 +178,8 @@
             </div>
         </div>
         
-        <!-- Experience Wrapper -->
         <div class="container">
-        <div class="timeline">
-        <!-- 2025 -->
-            <div class="date-title">
-                <span>2025</span>
-              </div>
-              <div class="row">	
-                <div class="col-sm-6 experience-item">
-                    <div class="experience-content">
-                      <div class="date">
-                          <img src="img/Logos/walbridge.png" alt="walbridge" class="experience-image">
-                      </div>
-                      <h2 class="experience-title">Information Technology Intern</h2> 
-                      <span>Walbridge</span>
-                          <p>May 2025 – August 2025 | Detroit, MI</p>
-                      <ul>
-                        <li>Decommissioned retired laptops and staged 200+ laptops by using Ivanti to install essential software, configure authentication, and remotely push security patches and shipped devices on schedule</li>
-                        <li>Coordinated with clients to schedule remote sessions via Screen Connect to resolve various PC and technical support issues</li>
-                        <li>Tracked laptop setup progress with custom Excel sheets and Track-It!, and communicated updates to team leads using Teams and Outlook</li>
-                      </ul>
-                      <a class="read-more" href="https://www.walbridge.com/" target="_blank">Website</a>
-                    </div>
-                  </div>
-                </div>
-        <!-- 2024 -->
-        <div class="date-title">
-            <span>2024</span>
-          </div>
-          <div class="row">
-            <div class="col-sm-6 experience-item">
-              <div class="experience-content">
-                <div class="date">
-                    <img src="img/Logos/feast.png" alt="FEAST" class="experience-image">
-                </div>
-                <h2 class="experience-title">Software Engineer</h2> 
-                <span>FEAST Solutions LLC</span>
-                    <p>September 2024 – Current | Commerce Township, MI</p>
-                <ul>
-                    <li>Created a Dart Flutter app that stored food items by scanning barcodes and generated AI recipes</li>
-                    <li>Created a backend Python server that controlled login and API calls</li>
-                    <li>Managed Apple TestFlight and organized GitHub tasks for team programming workflows</li>
-                    <li>Led the programming team and collaborated with design and management</li>
-                </ul>
-                <a class="read-more" href="https://www.usefeast.com/" target="_blank">Website</a>
-              </div>
-            </div>
-            
-            <div class="col-sm-6 experience-item right">
-              <div class="experience-content">
-                <div class="date">
-                    <img src="img/Logos/spartasoft.png" alt="Spartasoft" class="experience-image">
-                </div>
-                <h2 class="experience-title">Prototype Programmer</h2> 
-                <span>Spartasoft Studio</span>
-                    <p>September 2024 – February 2025 | East Lansing, MI</p>
-                <ul>
-                    <li>Led a team of programmers, artists, and designers to create multiple video game prototypes</li>
-                    <li>Used Unity to create 3D video games using C#</li>
-                </ul>
-                <a class="read-more" href="https://spartasoftstudio.itch.io/" target="_blank">Website</a>
-              </div>
-            </div>
-
-            <div class="col-sm-6 experience-item right">
-              <div class="experience-content">
-                <div class="date">
-                    <img src="img/Logos/livonia.png" alt="Livonia" class="experience-image">
-                </div>
-                <h2 class="experience-title">Camp Counselor</h2> 
-                <span>Livonia Parks and Recreation</span>
-                    <p>March 2024 – December 2024 | Livonia, MI</p>
-                <ul>
-                    <li>Supervised and ensured the safety and well-being of children aged 5-12</li>
-                    <li>Certified in CPR and First Aid</li>
-                    <li>Planned, organized, and led age-appropriate activities</li>
-                </ul>
-                <a class="read-more" href="https://livonia.gov/1960/Parks-Recreation" target="_blank">Website</a>
-              </div>
-            </div>
-          </div>
-        <!-- 2021 -->
-          <div class="date-title">
-            <span>2021</span>
-          </div>
-          <div class="row">	
-            <div class="col-sm-6 experience-item">
-              <div class="experience-content">
-                <div class="date">
-                    <img src="img/Logos/881ThePark.png" alt="88.1" class="experience-image">
-                </div>
-                <h2 class="experience-title">Production / Technical Director</h2>
-                <span>88.1 The Park</span>
-                    <p>September 2021 – June 2023 | Plymouth, MI</p>
-                <ul>
-                    <li>Created management software for the station, including calendar, contacts, texting, and basic AI</li>
-                    <li>Managed production staff and assignments</li>
-                    <li>Designed and hosted Indie Spotlight specialty show every week, including music and breaks</li>
-                    <li>Upgraded station with new ENCO servers and boards</li>
-                </ul>
-                <a class="read-more" href="https://www.881thepark.com/" target="_blank">Website</a>
-              </div>
-            </div>
-            
-            <div class="col-sm-6 experience-item right">
-              <div class="experience-content">
-                <div class="date">
-                    <img src="img/Logos/usaHockey.png" alt="USA Hockey" class="experience-image">
-                </div>
-                <h2 class="experience-title">Level 3 Hockey Referee</h2> 
-                <span>USA Hockey</span>
-                    <p>August 2021 – Current | Plymouth, MI</p>
-                    <ul>
-                        <li>Officiated over 250 USA hockey games, including Bantam, Pee Wee, and Squirt levels</li>
-                        <li>Referee and Linesman for 16U/18U hockey games</li>
-                        <li>Officiated 20 Big Bear hockey tournaments</li>
-                    </ul>
-                <a class="read-more" href="https://www.bigbeartournaments.com/" target="_blank">Website</a>
-              </div>
-            </div>
-          </div>
-        </div> 
+            <div class="timeline" id="experience-timeline"></div> 
         </div>
     </section>
     <!-- End of Work Experience Section -->
@@ -477,52 +194,7 @@
         </div>
 
         <div class="container">
-            <div class="row">
-                <!-- Award Item -->
-                <div class="col-md-4">
-                    <div class="award-item delay-03s animated wow zoomIn">
-                        <div class="award-icon">
-                            <i class="fa fa-certificate"></i>
-                        </div>
-                        <div class="award-details">
-                            <h4>CPR and First Aid Certification</h4>
-                            <h5>May 19, 2024</h5>
-                            <p>Adult and Pediatric First Aid/CPR/AED by American Red Cross.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--/Award Item -->
-
-                <!-- Award Item -->
-                <div class="col-md-4">
-                    <div class="award-item delay-03s animated wow zoomIn">
-                        <div class="award-icon">
-                            <i class="fa fa-certificate"></i>
-                        </div>
-                        <div class="award-details">
-                            <h4>IT Specialist - Java</h4>
-                            <h5>April 21, 2022</h5>
-                            <p>Earners of this badge demonstrate that they can recognize, write, and debug Java code that will logically solve a problem.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--/Award Item -->
-
-                <!-- Award Item -->
-                <div class="col-md-4">
-                    <div class="award-item delay-03s animated wow zoomIn">
-                        <div class="award-icon">
-                            <i class="fa fa-certificate"></i>
-                        </div>
-                        <div class="award-details">
-                            <h4>FCC Radio Operator License</h4>
-                            <h5>October 21, 2021</h5>
-                            <p>Granted by the Federal Communications Commission. Authorizes the holder to operate and maintain radio communication equipment.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--/Award Item -->
-            </div>
+            <div class="row" id="awards-container"></div>
         </div>
     </section>
     <!-- End of Awards or Certifications Section -->
@@ -537,6 +209,13 @@
 </footer>
 <!-- End of Footer -->
 
+<!-- Content Loaders -->
+<script src="js/dataLoaders/skillsLoader.js"></script>
+<script src="js/dataLoaders/experienceLoader.js"></script>
+<script src="js/dataLoaders/awardsLoader.js"></script>
+<script src="js/dataLoaders/projectsLoader.js"></script>
+
+<!-- Other Libraries -->
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-scrolltofixed.js"></script>
@@ -546,6 +225,11 @@
 <script src="js/fancybox/jquery.fancybox.pack.js"></script> 
 <script src="js/wow.js"></script> 
 <script src="js/custom.js"></script>
+
+<a href="https://soszust40.us/WebTools" class="float-tools-btn" target="_blank">
+    <i class="fa-solid fa-screwdriver-wrench"></i>
+    <span class="tooltip-text">WebTools</span>
+</a>
 
 </body>
 </html>

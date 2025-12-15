@@ -1,0 +1,92 @@
+[
+  {
+    "title": "FEAST Flutter App",
+    "dates": "Sep 2024 - Current",
+    "description": "A cross-platform mobile application designed to reduce food waste, generate recipes, and plan weekly meals, built with Flutter and Firebase.",
+    "image": "img/Projects/FEASTAppProject.png",
+    "link": "https://testflight.apple.com/join/uDgbeyTy",
+    "category": "other",
+    "type": "Work",
+    "technologies": ["devicon-flutter-plain", "devicon-firebase-plain", "devicon-figma-plain", "devicon-androidstudio-plain", "devicon-xcode-plain"]
+  },
+  {
+    "title": "Dino Game",
+    "dates": "Feb 2025 - Nov 2025",
+    "description": "A clone of Google's Dino game, featuring both an AI-powered mode trained using NEAT and a manual player mode.",
+    "image": "img/Projects/dinoGameProject.png",
+    "link": "https://github.com/Soszust40/Dino-Game",
+    "category": "python",
+    "type": "Personal",
+    "technologies": ["devicon-python-plain"]
+  },
+  {
+    "title": "Hangman",
+    "dates": "Feb 2025 - Aug 2025",
+    "description": "A PyQt6-based Hangman game featuring multiple game modes, an achievement system, and a large word database.",
+    "image": "img/Projects/hangmanProject.png",
+    "link": "https://github.com/Oszust-Industries/Hangman",
+    "category": "python",
+    "type": "Personal",
+    "technologies": ["devicon-python-plain"]
+  },
+  {
+    "title": "Music Tools",
+    "dates": "Jan 2023 - Jan 2025",
+    "description": "An all-in-one solution for music enthusiasts to organize and manage their collections.",
+    "image": "img/Projects/musicToolsProject.png",
+    "link": "https://github.com/Oszust-Industries/Oszust-OS-Music-Tools",
+    "category": "python",
+    "type": "Personal",
+    "technologies": ["devicon-python-plain", "devicon-php-plain", "devicon-notion-plain"]
+  },
+  {
+    "title": "Temple of Xibalba",
+    "dates": "Oct 2024 - Dec 2024",
+    "description": "A 3D temple treasure adventure game developed in Unity.",
+    "image": "img/Projects/xibalbaTempleProject.png",
+    "link": "https://youtu.be/7BgXSeOZ1w4",
+    "category": "python",
+    "type": "School",
+    "technologies": ["devicon-csharp-plain", "devicon-gitlab-plain", "devicon-unity-plain"]
+  },
+  {
+    "title": "Largest Monotonic Island",
+    "dates": "November 2024",
+    "description": "A Dafny project to verify and find the largest contiguous monotonic island in an array of integers.",
+    "image": "img/Projects/schoolDafnyProject.png",
+    "link": "https://github.com/Soszust40/School/blob/main/README.md#largest-monotonic-island-dafny",
+    "category": "other",
+    "type": "School",
+    "technologies": []
+  },
+  {
+    "title": "Undercooked",
+    "dates": "Sep 2024 - Oct 2024",
+    "description": "A 2-player rival cooking prototype game made in Unity.",
+    "image": "img/Projects/undercookedProject.png",
+    "link": "https://haydenhe.itch.io/undercooked",
+    "category": "C",
+    "type": "School",
+    "technologies": ["devicon-csharp-plain", "devicon-gitlab-plain", "devicon-unity-plain"]
+  },
+  {
+    "title": "School Projects",
+    "dates": "May 2021 - Current",
+    "description": "A collection of various games and software created during my academic studies.",
+    "image": "img/Projects/schoolProjects.png",
+    "link": "https://github.com/Soszust40/School",
+    "category": "java C python",
+    "type": "School",
+    "technologies": ["devicon-python-plain", "devicon-java-plain", "devicon-cplusplus-plain"]
+  },
+  {
+    "title": "Achievement Watcher",
+    "dates": "July 2021 - Aug 2021",
+    "description": "A tool that displays game achievements tracked across my various game projects.",
+    "image": "img/Projects/achievementWatcherProject.png",
+    "link": "https://github.com/Oszust-Industries/Achievement-Watcher",
+    "category": "python",
+    "type": "Personal",
+    "technologies": ["devicon-python-plain"]
+  }
+]

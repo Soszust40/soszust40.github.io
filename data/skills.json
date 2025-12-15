@@ -1,0 +1,86 @@
+{
+  "coding": [
+    {
+      "name": "Python",
+      "icon": "devicon-python-plain",
+      "years": "5 Years",
+      "level": "Expert"
+    },
+    {
+      "name": "Java",
+      "icon": "devicon-java-plain",
+      "years": "4 Years",
+      "level": "Advanced"
+    },
+    {
+      "name": "Dart / Flutter",
+      "icon": "devicon-flutter-plain",
+      "years": "2 Years",
+      "level": "Advanced"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "devicon-javascript-plain",
+      "years": "4 Years",
+      "level": "Proficient"
+    },
+    {
+      "name": "HTML5/CSS3",
+      "icon": "devicon-html5-plain",
+      "years": "2 Years",
+      "level": "Proficient"
+    },
+    {
+      "name": "C++",
+      "icon": "devicon-cplusplus-plain",
+      "years": "2 Years",
+      "level": "Proficient"
+    },
+    {
+      "name": "C# (Unity)",
+      "icon": "devicon-csharp-plain",
+      "years": "2 Years",
+      "level": "Proficient"
+    },
+    {
+      "name": "Assembly (x86)",
+      "icon": "devicon-gcc-plain",
+      "years": "2 Years",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Swift",
+      "icon": "devicon-swift-plain",
+      "years": "1 Year",
+      "level": "Learning"
+    }
+  ],
+  "tools": [
+    { "name": "Adobe Photoshop", "icon": "devicon-photoshop-plain", "years": "6 Years" },
+    { "name": "Adobe Premiere", "icon": "devicon-premierepro-plain", "years": "6 Years" },
+    { "name": "Adobe Audition", "icon": "fa fa-music", "years": "5 Years" },
+    { "name": "After Effects", "icon": "devicon-aftereffects-plain", "years": "3 Years" },
+    { "name": "Figma", "icon": "devicon-figma-plain", "years": "1 Year" },
+    { "name": "Office Suite", "icon": "fa-brands fa-windows", "years": "10 Years" },
+    { "name": "Google Suite", "icon": "devicon-google-plain", "years": "10 Years" },
+    { "name": "Git/GitHub", "icon": "devicon-git-plain", "years": "4 Years" },
+    { "name": "Visual Studio", "icon": "devicon-visualstudio-plain", "years": "5 Years" },
+    { "name": "VS Code", "icon": "devicon-vscode-plain", "years": "5 Years" },
+    { "name": "Android Studio", "icon": "devicon-androidstudio-plain", "years": "2 Years" },
+    { "name": "Xcode", "icon": "devicon-xcode-plain", "years": "1 Year" }
+  ],
+  "leadership": [
+    {
+      "title": "Team Lead:",
+      "desc": "Managed programmers and designers at FEAST."
+    },
+    {
+      "title": "Problem Solving:",
+      "desc": "Backend logic and algorithm optimization."
+    },
+    {
+      "title": "Communication:",
+      "desc": "8+ years experience with Microsoft/Google Suites."
+    }
+  ]
+}

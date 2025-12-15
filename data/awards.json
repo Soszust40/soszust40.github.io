@@ -1,0 +1,23 @@
+[
+  {
+    "title": "CPR and First Aid Certification",
+    "date": "May 19, 2024",
+    "issuer": "American Red Cross",
+    "description": "Adult and Pediatric First Aid/CPR/AED certification.",
+    "icon": "fa fa-briefcase-medical"
+  },
+  {
+    "title": "IT Specialist - Java",
+    "date": "April 21, 2022",
+    "issuer": "Certiport",
+    "description": "Earners of this badge demonstrate that they can recognize, write, and debug Java code that will logically solve a problem.",
+    "icon": "devicon-java-plain"
+  },
+  {
+    "title": "FCC Radio Operator License",
+    "date": "October 21, 2021",
+    "issuer": "Federal Communications Commission",
+    "description": "Authorizes the holder to operate and maintain radio communication equipment.",
+    "icon": "fa fa-microphone"
+  }
+]
