@@ -10,6 +10,16 @@
     "technologies": ["devicon-flutter-plain", "devicon-firebase-plain", "devicon-figma-plain", "devicon-androidstudio-plain", "devicon-xcode-plain"]
   },
   {
+    "title": "WholeNotes Android App",
+    "dates": "Sep 2025 - Nov 2025",
+    "description": "A native Android application for rating and sharing songs, featuring cloud sync capabilities via Firebase.",
+    "image": "img/Projects/wholeNotesProject.png",
+    "link": "https://github.com/Soszust40/School#wholenotes-app-java",
+    "category": "java",
+    "type": "School",
+    "technologies": ["devicon-java-plain", "devicon-firebase-plain", "devicon-androidstudio-plain"]
+  },
+  {
     "title": "Dino Game",
     "dates": "Feb 2025 - Nov 2025",
     "description": "A clone of Google's Dino game, featuring both an AI-powered mode trained using NEAT and a manual player mode.",
@@ -52,12 +62,22 @@
   {
     "title": "Largest Monotonic Island",
     "dates": "November 2024",
-    "description": "A Dafny project to verify and find the largest contiguous monotonic island in an array of integers.",
+    "description": "A formal verification project using Dafny. Implemented and mathematically proved the correctness of a largest monotonic island.",
     "image": "img/Projects/schoolDafnyProject.png",
     "link": "https://github.com/Soszust40/School/blob/main/README.md#largest-monotonic-island-dafny",
     "category": "other",
     "type": "School",
     "technologies": []
+  },
+  {
+    "title": "Writing Tools",
+    "dates": "October 2024",
+    "description": "Contributed to this open-source project by implementing a Dark Mode and fixing critical UI/UX bugs to improve user experience.",
+    "image": "img/Projects/writingToolsProject.png",
+    "link": "https://github.com/theJayTea/WritingTools",
+    "category": "python",
+    "type": "Opensource",
+    "technologies": ["devicon-python-plain"]
   },
   {
     "title": "Undercooked",

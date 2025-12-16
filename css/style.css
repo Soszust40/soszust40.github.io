@@ -446,6 +446,34 @@ a.read_more:hover {
     box-shadow: 0 6px 12px rgba(255, 221, 87, 0.3);
 }
 
+#load-more-btn {
+    width: auto !important;
+    height: auto !important;
+    line-height: normal !important;
+    display: inline-block;
+    background: #2a2a2a;
+    color: #e0e0e0 !important;
+    border: 1px solid #333 !important;
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+#load-more-btn:hover {
+    background: #ffdd57 !important;
+    color: #121212 !important;
+    border-color: #ffdd57 !important;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(255, 221, 87, 0.3);
+}
+
 #portfolio_wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -558,6 +586,7 @@ a.project-card:hover .project-icons i {
 .project-type-tag.personal { color: #49b5e7; border: 1px solid #49b5e7; background: transparent; }
 .project-type-tag.school { color: #ffdd57; border: 1px solid #ffdd57; background: transparent; }
 .project-type-tag.work { color: #9257ff; border: 1px solid #9257ff; background: transparent; }
+.project-type-tag.opensource { color: #0da00f; border: 1px solid #0da00f; background: transparent; }
 
 /* Title & Text */
 .project-title {
@@ -1535,6 +1564,12 @@ a.project-card:hover .project-title {
 .float-tools-btn:hover .tooltip-text {
     visibility: visible;
     opacity: 1;
+}
+
+.float-tools-btn.fade-out {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8);
 }
 
 /* Animations */
