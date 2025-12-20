@@ -1709,7 +1709,7 @@ a.project-card:hover .project-title {
     }
 }
 
-@media (max-width:480px) {
+@media (max-width:780px) {
     .navStyle {
         float: left;
         width: 100%;

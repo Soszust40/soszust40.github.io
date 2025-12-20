@@ -10,9 +10,10 @@
         "endDate": "August 2025",
         "location": "Detroit, MI",
         "description": [
-          "Decommissioned retired laptops and staged 200+ laptops by using Ivanti to install essential software, configure authentication, and remotely push security patches and shipped devices on schedule",
-          "Coordinated with clients to schedule remote sessions via Screen Connect to resolve various PC and technical support issues",
-          "Tracked laptop setup progress with custom Excel sheets and Track-It!, and communicated updates to team leads using Teams and Outlook"
+          "Decommissioned retired laptops and staged 200+ devices using Ivanti to image systems, install essential software, configure authentication, deploy security patches, and ship equipment on schedule.",
+          "Provided remote technical support by coordinating client sessions via ScreenConnect to diagnose and resolve hardware, software, and connectivity issues.",
+          "Tracked device deployment and lifecycle status using custom Excel spreadsheets and Track-It!, ensuring accurate asset management and on-time delivery.",
+          "Collaborated with IT team members and team leads, communicating progress and issues through Teams and Outlook to support daily operations."
         ],
         "tags": ["Ivanti", "Excel", "Tech Support", "Networking"],
         "link": "https://www.walbridge.com/",
@@ -31,10 +32,12 @@
         "endDate": "Current",
         "location": "Commerce Township, MI",
         "description": [
-          "Created a Dart Flutter app that stored food items by scanning barcodes and generated AI recipes",
-          "Created a backend Python server that controlled login and API calls",
-          "Managed Apple TestFlight and organized GitHub tasks for team programming workflows",
-          "Led the programming team and collaborated with design and management"
+          "Developed a Flutter mobile application in Dart that stored food inventory via barcode scanning and generated AI-driven recipes.",
+          "Built and maintained a Python backend responsible for authentication, user management, and API integrations.",
+          "Collaborated with the design team using Figma to design and iterate on new application pages, contributing to improved user experience and interface consistency.",
+          "Led development of the CoralAI physical device, enabling automated tracking of food entering and leaving a pantry and synchronizing inventory data with the mobile application.",
+          "Managed Apple TestFlight deployments and organized GitHub issues and milestones to support structured team development workflows.",
+          "Led the programming team and coordinated cross-functional collaboration with design and management stakeholders."
         ],
         "tags": ["Flutter", "Dart", "Python", "API", "Git"],
         "link": "https://www.usefeast.com/",
@@ -48,8 +51,8 @@
         "endDate": "February 2025",
         "location": "East Lansing, MI",
         "description": [
-          "Led a team of programmers, artists, and designers to create multiple video game prototypes",
-          "Used Unity to create 3D video games using C#"
+          "Led a team of programmers, artists, and designers to develop multiple video game prototypes.",
+          "Developed 3D games in Unity using C#."
         ],
         "tags": ["Unity", "C#", "Game Design", "Team Leadership"],
         "link": "https://spartasoftstudio.itch.io/",
@@ -63,9 +66,9 @@
         "endDate": "December 2024",
         "location": "Livonia, MI",
         "description": [
-          "Supervised and ensured the safety and well-being of children aged 5-12",
-          "Certified in CPR and First Aid",
-          "Planned, organized, and led age-appropriate activities"
+          "Supervised and ensured the safety and well-being of children aged 5-12.",
+          "Certified in CPR and First Aid.",
+          "Planned, organized, and led age-appropriate recreational activities."
         ],
         "tags": ["Leadership", "Communication", "CPR Certified"],
         "link": "https://livonia.gov/1960/Parks-Recreation",
@@ -84,10 +87,10 @@
         "endDate": "June 2023",
         "location": "Plymouth, MI",
         "description": [
-          "Created management software for the station, including calendar, contacts, texting, and basic AI",
-          "Managed production staff and assignments",
-          "Designed and hosted Indie Spotlight specialty show every week, including music and breaks",
-          "Upgraded station with new ENCO servers and boards"
+          "Developed internal management software for scheduling, contacts, messaging, and basic AI functionality.",
+          "Managed production staff and coordinated weekly assignments.",
+          "Designed and hosted the weekly 'Indie Spotlight' specialty show every week, including music and on-air breaks.",
+          "Upgraded station infrastructure by installing new ENCO servers and broadcast boards."
         ],
         "tags": ["Audio Engineering", "Management", "Software Dev"],
         "link": "https://www.881thepark.com/",
@@ -101,9 +104,9 @@
         "endDate": "Current",
         "location": "Plymouth, MI",
         "description": [
-          "Officiated over 250 USA hockey games, including Bantam, Pee Wee, and Squirt levels",
-          "Referee and Linesman for 16U/18U hockey games",
-          "Officiated 20 Big Bear hockey tournaments"
+          "Officiated 300+ USA Hockey games across Adult, Bantam, Pee Wee, and Squirt levels.",
+          "Served as a referee and linesman for 16U and 18U games.",
+          "Officiated 20 Big Bear hockey tournaments."
         ],
         "tags": ["Conflict Resolution", "Decision Making"],
         "link": "https://www.bigbeartournaments.com/",

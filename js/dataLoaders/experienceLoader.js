@@ -48,10 +48,10 @@ document.addEventListener("DOMContentLoaded", function () {
                             
                             <div class="job-meta">
                                 <p class="job-dates">
-                                    <i class="fa fa-calendar"></i> ${job.startDate} – ${job.endDate} 
+                                    <i class="fa fa-calendar"></i>${job.startDate} – ${job.endDate} 
                                     <span class="duration">${durationText}</span>
                                 </p>
-                                <p class="job-location"><i class="fa fa-map-marker"></i> ${job.location}</p>
+                                <p class="job-location"><i class="fa fa-map-marker"></i>${job.location}</p>
                             </div>
 
                             <ul>${bulletsHTML}</ul>
