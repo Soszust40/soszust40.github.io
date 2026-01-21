@@ -1,5 +1,27 @@
 [
   {
+    "year": "2026",
+    "jobs": [
+      {
+        "title": "Help & Sales Desk Technician",
+        "company": "Michigan State University IT Services",
+        "logo": "img/Logos/msuIT.png",
+        "startDate": "January 2026",
+        "endDate": "Current",
+        "location": "East Lansing, MI",
+        "description": [
+          "Provided front-line help desk support to students, faculty, and staff, diagnosing and resolving hardware, software, and account-related issues in a fast-paced university environment.",
+          "Assisted customers in selecting appropriate technology solutions by assessing needs, explaining product features, and recommending devices, accessories, and services.",
+          "Completed Point of Sale (POS) training and processed sales transactions, including cash, credit card, and departmental charge payments, while maintaining accuracy and compliance.",
+          "Prepared and processed sales for warranty repairs, device replacements, and service requests, coordinating with vendors and internal repair workflows as needed."
+        ],
+        "tags": ["Help Desk", "Customer Service", "Point of Sale", "IT Sales", "Device Repair", "Cash Handling"],
+        "link": "https://techstore.msu.edu/",
+        "side": "right"
+      }
+    ]
+  },
+  {
     "year": "2025",
     "jobs": [
       {
@@ -25,7 +47,7 @@
     "year": "2024",
     "jobs": [
       {
-        "title": "Software Engineer",
+        "title": "Tech Lead & Full-Stack Developer",
         "company": "FEAST Solutions LLC",
         "logo": "img/Logos/feast.png",
         "startDate": "September 2024",
