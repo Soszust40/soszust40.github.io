@@ -3,71 +3,71 @@
     {
       "name": "Python",
       "icon": "devicon-python-plain",
-      "years": "5 Years",
+      "year": "2018",
       "level": "Expert"
     },
     {
       "name": "Java",
       "icon": "devicon-java-plain",
-      "years": "4 Years",
+      "year": "2021",
       "level": "Advanced"
     },
     {
       "name": "Dart / Flutter",
       "icon": "devicon-flutter-plain",
-      "years": "2 Years",
+      "year": "2023",
       "level": "Advanced"
     },
     {
       "name": "JavaScript",
       "icon": "devicon-javascript-plain",
-      "years": "4 Years",
+      "year": "2022",
       "level": "Proficient"
     },
     {
       "name": "HTML5/CSS3",
       "icon": "devicon-html5-plain",
-      "years": "2 Years",
+      "year": "2023",
       "level": "Proficient"
     },
     {
       "name": "C++",
       "icon": "devicon-cplusplus-plain",
-      "years": "2 Years",
+      "year": "2023",
       "level": "Proficient"
     },
     {
       "name": "C# (Unity)",
       "icon": "devicon-csharp-plain",
-      "years": "2 Years",
+      "year": "2023",
       "level": "Proficient"
     },
     {
       "name": "Assembly (x86)",
       "icon": "devicon-gcc-plain",
-      "years": "2 Years",
+      "year": "2024",
       "level": "Intermediate"
     },
     {
       "name": "Swift",
       "icon": "devicon-swift-plain",
-      "years": "1 Year",
+      "year": "2025",
       "level": "Learning"
     }
   ],
   "tools": [
-    { "name": "Adobe Photoshop", "icon": "devicon-photoshop-plain", "years": "6 Years" },
-    { "name": "Adobe Premiere", "icon": "devicon-premierepro-plain", "years": "6 Years" },
-    { "name": "Adobe Audition", "icon": "fa fa-music", "years": "5 Years" },
-    { "name": "After Effects", "icon": "devicon-aftereffects-plain", "years": "3 Years" },
-    { "name": "Figma", "icon": "devicon-figma-plain", "years": "1 Year" },
-    { "name": "Office Suite", "icon": "fa-brands fa-windows", "years": "10 Years" },
-    { "name": "Google Suite", "icon": "devicon-google-plain", "years": "10 Years" },
-    { "name": "Git/GitHub", "icon": "devicon-git-plain", "years": "4 Years" },
-    { "name": "Visual Studio", "icon": "devicon-visualstudio-plain", "years": "5 Years" },
-    { "name": "VS Code", "icon": "devicon-vscode-plain", "years": "5 Years" },
-    { "name": "Android Studio", "icon": "devicon-androidstudio-plain", "years": "2 Years" },
-    { "name": "Xcode", "icon": "devicon-xcode-plain", "years": "1 Year" }
+    { "name": "Adobe Photoshop", "icon": "devicon-photoshop-plain", "year": "2020" },
+    { "name": "Adobe Premiere", "icon": "devicon-premierepro-plain", "year": "2020" },
+    { "name": "Adobe Audition", "icon": "fa fa-music", "year": "2020" },
+    { "name": "After Effects", "icon": "devicon-aftereffects-plain", "year": "2022" },
+    { "name": "Office Suite", "icon": "fa-brands fa-windows", "year": "2015" },
+    { "name": "Google Suite", "icon": "devicon-google-plain", "year": "2015" },
+    { "name": "Git/GitHub", "icon": "devicon-git-plain", "year": "2020" },
+    { "name": "Visual Studio", "icon": "devicon-visualstudio-plain", "year": "2020" },
+    { "name": "VS Code", "icon": "devicon-vscode-plain", "year": "2020" },
+    { "name": "Figma", "icon": "devicon-figma-plain", "year": "2025" },
+    { "name": "Android Studio", "icon": "devicon-androidstudio-plain", "year": "2024" },
+    { "name": "Xcode", "icon": "devicon-xcode-plain", "year": "2024" }
   ],
   "leadership": [
     {
@@ -80,7 +80,7 @@
     },
     {
       "title": "Communication:",
-      "desc": "8+ years experience with Microsoft/Google Suites."
+      "desc": "10+ years experience with Microsoft/Google Suites."
     }
   ]
 }

@@ -7,9 +7,18 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
     }
 
+    const currentYear = new Date().getFullYear();
+
     fetch('data/skills.json')
         .then(response => response.json())
         .then(data => {
+
+            // Helper function to format years text
+            const getYearsText = (startYear) => {
+                const diff = currentYear - startYear;
+                const yearsCount = diff <= 0 ? 1 : diff;
+                return `${yearsCount} Year${yearsCount > 1 ? 's' : ''}`;
+            };
             
             // Load Coding Skills
             let codingHTML = '';
@@ -37,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <span class="skill-name"><i class="${skill.icon}"></i> ${skill.name}</span>
                         <div class="skill-meta">
                             <span class="skill-level-text">${skill.level}</span>
-                            <span class="skill-years">| ${skill.years}</span>
+                            <span class="skill-years">• ${getYearsText(skill.year)}</span>
                         </div>
                     </div>
                     
@@ -63,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="tool-item">
                     <i class="${tool.icon}"></i>
                     <span class="tool-name">${tool.name}</span>
-                    <span class="tool-years">${tool.years}</span>
+                    <span class="tool-years">${getYearsText(tool.year)}</span>
                 </div>`;
             });
             toolsContainer.innerHTML = toolsHTML;
