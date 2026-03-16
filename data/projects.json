@@ -1,11 +1,21 @@
 [
   {
+    "title": "PennyPup iOS App",
+    "dates": "March 2026 - Current",
+    "description": "A Swift native iOS application for tracking your spendings, managing your budget, and visualizing your financial data with interactive charts.",
+    "image": "img/Projects/pennyPup.png",
+    "link": "",
+    "category": "swift",
+    "type": "Personal",
+    "technologies": ["devicon-swift-plain", "devicon-xcode-plain"]
+  },
+  {
     "title": "FEAST Flutter App",
     "dates": "Sep 2024 - Current",
     "description": "A cross-platform mobile application designed to reduce food waste, generate recipes, and plan weekly meals, built with Flutter and Firebase.",
     "image": "img/Projects/FEASTAppProject.png",
     "link": "https://testflight.apple.com/join/uDgbeyTy",
-    "category": "other",
+    "category": "flutter",
     "type": "Work",
     "technologies": ["devicon-flutter-plain", "devicon-firebase-plain", "devicon-figma-plain", "devicon-androidstudio-plain", "devicon-xcode-plain"]
   },
@@ -55,7 +65,7 @@
     "description": "A 3D temple treasure adventure game developed in Unity.",
     "image": "img/Projects/xibalbaTempleProject.png",
     "link": "https://youtu.be/7BgXSeOZ1w4",
-    "category": "python",
+    "category": "C",
     "type": "School",
     "technologies": ["devicon-csharp-plain", "devicon-gitlab-plain", "devicon-unity-plain"]
   },
