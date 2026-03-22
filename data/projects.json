@@ -4,7 +4,7 @@
     "dates": "March 2026 - Current",
     "description": "A Swift native iOS application for tracking your spendings, managing your budget, and visualizing your financial data with interactive charts.",
     "image": "img/Projects/pennyPup.png",
-    "link": "",
+    "link": "https://apps.apple.com/us/app/pennypup/id6759981017",
     "category": "swift",
     "type": "Personal",
     "technologies": ["devicon-swift-plain", "devicon-xcode-plain"]
