@@ -18,6 +18,23 @@
         "tags": ["Help Desk", "Customer Service", "Point of Sale", "IT Sales", "Device Repair", "Cash Handling"],
         "link": "https://techstore.msu.edu/",
         "side": "right"
+      },
+      {
+        "title": "Technical Instructor",
+        "company": "Lavner Education @ George Washington University",
+        "logo": "img/Logos/lavner.png",
+        "startDate": "May 2026",
+        "endDate": "Current",
+        "location": "Washington, D.C.",
+        "description": [
+          "Delivered high-level STEM instruction and curriculum for advanced technology programs at GWU’s Foggy Bottom and Mount Vernon campuses, specializing in project-based learning for emerging innovators.",
+          "Directed end-to-end classroom operations for 40+ hours weekly, including hardware/software deployment, network troubleshooting, and cross-platform technical support for diverse educational software.",
+          "Architected personalized 1-on-1 technical training sessions for specialized learners, adapting complex concepts in coding and technology into actionable skill-building modules.",
+          "Served as a primary brand ambassador and technical liaison, facilitating communication between camp leadership, families, and HQ to optimize program logistics and student outcomes."
+        ],
+        "tags": ["STEM Instruction", "Technical Troubleshooting", "Operations Management", "Curriculum Delivery", "Data Integrity", "Hardware/Software Deployment"],
+        "link": "https://www.lavnercamps.com/",
+        "side": "left"
       }
     ]
   },

@@ -6,15 +6,25 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json())
         .then(data => {
             let timelineHTML = '';
+            const currentDate = new Date();
 
             data.forEach(yearGroup => {
+                // Filter out jobs where the startDate is in the future
+                const visibleJobs = yearGroup.jobs.filter(job => {
+                    if (!job.startDate) return false;
+                    const startDate = new Date(job.startDate);
+                    return startDate <= currentDate; 
+                });
+
+                if (visibleJobs.length === 0) return;
+
                 timelineHTML += `
                 <div class="date-title">
                     <span>${yearGroup.year}</span>
                 </div>
                 <div class="row">`;
 
-                yearGroup.jobs.forEach(job => {
+                visibleJobs.forEach(job => {
                     const sideClass = job.side === 'right' ? 'right' : '';
 
                     // Calculate Duration
