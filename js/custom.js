@@ -1,5 +1,6 @@
 $(window).load(function() {
     jQuery('#all').click();
+    $('body').removeClass('preload');
     return false;
 });
 
@@ -124,3 +125,18 @@ wow = new WOW({
     offset: 100
 });
 wow.init();
+
+// Light and Dark Mode Toggle
+const themeToggleBtn = document.getElementById('themeToggle');
+const body = document.body;
+
+themeToggleBtn.addEventListener('click', function() {
+    body.classList.toggle('light-mode');
+    
+    // Save preference to localStorage
+    if (body.classList.contains('light-mode')) {
+        localStorage.setItem('theme', 'light');
+    } else {
+        localStorage.setItem('theme', 'dark');
+    }
+});

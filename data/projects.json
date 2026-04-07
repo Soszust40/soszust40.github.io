@@ -2,9 +2,26 @@
   {
     "title": "PennyPup iOS App",
     "dates": "March 2026 - Current",
+    "role": "Lead iOS Developer & Founder",
+    "company": "PennyPup",
     "description": "A Swift native iOS application for tracking your spendings, managing your budget, and visualizing your financial data with interactive charts.",
-    "image": "img/Projects/pennyPup.png",
-    "link": "https://apps.apple.com/us/app/pennypup/id6759981017",
+    "detailedDescription": "",
+    "whyBuilt": "",
+    "whatILearned": "",
+    "image": "img/Projects/PennyPup/pennyPup.png",
+    "gallery": [
+      "img/Projects/PennyPup/Slice 2.png",
+      "img/Projects/PennyPup/Slice 3.png",
+      "img/Projects/PennyPup/Slice 4.png",
+      "img/Projects/PennyPup/Slice 5.png",
+      "img/Projects/PennyPup/Slice 6.png",
+      "img/Projects/PennyPup/Slice 7.png",
+      "img/Projects/PennyPup/Slice 8.png",
+      "img/Projects/PennyPup/Slice 9.png"
+    ],
+    "buttonText": "App Store",
+    "liveLink": "https://apps.apple.com/us/app/pennypup/id6759981017",
+    "githubLink": "", 
     "category": "swift",
     "type": "Personal",
     "technologies": ["devicon-swift-plain", "devicon-xcode-plain"]

@@ -28,10 +28,24 @@
 </head>
 
 <body>
+    <body class="preload">
+    <script>
+        if (localStorage.getItem('theme') === 'light') {
+            document.body.classList.add('light-mode');
+        }
+    </script>
+
     <!--Header Section-->
     <header id="header_wrapper">
         <div class="container">
             <div class="header_box">
+                
+                <div class="theme-toggle-container">
+                    <button id="themeToggle" class="btn-theme-toggle" aria-label="Toggle Light/Dark Mode">
+                        <i class="fa-solid fa-moon"></i>
+                        <i class="fa-solid fa-sun"></i>
+                    </button>
+                </div>
                 <nav class="navbar navbar-inverse">
                     <div class="navbar-header">
                         <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
@@ -188,8 +202,18 @@
                 </div>
         </div>
         <div class="portfolio-bottom"></div>
-  </section>
-  <!-- End of Portfolio Section -->
+    </section>
+
+    <div id="project-modal-overlay" class="custom-modal-overlay hidden" role="dialog" aria-modal="true" tabindex="-1">
+        <div class="custom-modal-container">
+            <button id="close-modal-btn" class="close-modal-btn" aria-label="Close modal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div id="modal-dynamic-content" class="modal-scroll-area">
+                </div>
+        </div>
+    </div>
+     <!-- End of Portfolio Section -->
 
     <!-- Work Experience Section -->
     <section id="experience" class="content">
@@ -223,11 +247,11 @@
 
 <!-- Footer -->
 <footer class="footer_wrapper">
-  <div class="container">
-    <div class="footer_bottom">
-      <span>Designed & Developed by Simon Oszust</span>
+    <div class="container">
+        <div class="footer_bottom">
+            <span>Designed & Developed by Simon Oszust</span>
+        </div>
     </div>
-  </div>
 </footer>
 <!-- End of Footer -->
 
