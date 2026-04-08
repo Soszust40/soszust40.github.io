@@ -140,3 +140,12 @@ themeToggleBtn.addEventListener('click', function() {
         localStorage.setItem('theme', 'dark');
     }
 });
+
+// Close the mobile side drawer when a link is clicked
+$(document).ready(function() {
+    $('.navStyle ul li a').on('click', function() {
+        if (window.innerWidth < 768 && $('#main-nav').hasClass('in')) {
+            $('#nav-toggle').click();
+        }
+    });
+});
