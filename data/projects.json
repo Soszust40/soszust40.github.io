@@ -2,12 +2,10 @@
   {
     "title": "PennyPup iOS App",
     "dates": "March 2026 - Current",
-    "role": "Lead iOS Developer & Founder",
-    "company": "PennyPup",
     "description": "A Swift native iOS application for tracking your spendings, managing your budget, and visualizing your financial data with interactive charts.",
-    "detailedDescription": "",
-    "whyBuilt": "",
-    "whatILearned": "",
+    "detailedDescription": "PennyPup is a comprehensive, privacy-focused iOS financial planner designed to go beyond basic expense tracking. It features a fully local smart assistant powered by natural language processing to answer financial queries, integrated habit trackers, and custom countdowns for financial goals like vacations. The app allows users to seamlessly manage their budgets, visualize their spending trends through interactive charts, and keep their data securely synced across devices.",
+    "whyBuilt": "I originally built PennyPup because I was frustrated with managing my personal budget in Google Sheets and wanted a custom solution tailored to my specific workflow. During the planning phase, I realized there was a gap in the market: existing budgeting apps lacked integrated, privacy-first features like a local AI assistant, habit tracking, and goal countdowns. I set out to build an all-in-one tool that combined everyday expense tracking with forward-looking financial goal management.",
+    "whatILearned": "As my first native Swift application, PennyPup was an great learning experience. I gained hands-on expertise building responsive interfaces with SwiftUI and managing complex, persistent local states using SwiftData. I also learned how to implement secure, seamless data syncing with iCloud. To power the app's unique features, I successfully integrated Apple's Natural Language and CoreML frameworks for the local smart assistant, and implemented custom push notifications to keep users updated on their financial goals.",
     "image": "img/Projects/PennyPup/pennyPup.png",
     "gallery": [
       "img/Projects/PennyPup/Slice 2.png",
@@ -24,116 +22,251 @@
     "githubLink": "", 
     "category": "swift",
     "type": "Personal",
-    "technologies": ["devicon-swift-plain", "devicon-xcode-plain"]
+    "technologies": [
+      "devicon-swift-plain",
+      "devicon-xcode-plain"
+    ]
   },
   {
     "title": "FEAST Flutter App",
     "dates": "Sep 2024 - Current",
+    "role": "Tech Lead",
+    "company": "Feast Solutions LLC",
     "description": "A cross-platform mobile application designed to reduce food waste, generate recipes, and plan weekly meals, built with Flutter and Firebase.",
+    "detailedDescription": "FEAST is a cross-platform mobile application powered by AI, designed to tackle the growing problem of household food waste. The core experience revolves around intelligent pantry management: users can scan their existing ingredients, and the app leverages artificial intelligence to generate highly optimized recipes. By matching user preferences with on-hand ingredients, FEAST ensures perfectly portioned meals while dramatically reducing grocery waste.",
+    "whyBuilt": "FEAST originated as a Michigan State University (MSU) startup with a clear, impactful mission: to eliminate food waste through the power of artificial intelligence. We recognized that many people struggle to keep track of what's in their pantry and end up throwing away expired food. We built FEAST to provide a smart, seamless solution that saves users money, simplifies meal planning, and promotes environmentally sustainable eating habits.",
+    "whatILearned": "As my first full-scale mobile application, FEAST was a massive technical milestone. Stepping into the role of Tech Lead, I gained deep, hands-on experience building a cross-platform frontend with Flutter and integrating it seamlessly with a Python backend and Firebase. Beyond the codebase, I learned the end-to-end lifecycle of mobile development, successfully navigating the deployment processes and managing the storefronts for both the Apple App Store and Google Play Store.",
     "image": "img/Projects/FEASTAppProject.png",
-    "link": "https://feast-solutions.com/",
+    "gallery": [],
+    "buttonText": "Website",
+    "liveLink": "https://feast-solutions.com/",
+    "githubLink": "",
     "category": "flutter",
     "type": "Work",
-    "technologies": ["devicon-flutter-plain", "devicon-firebase-plain", "devicon-figma-plain", "devicon-androidstudio-plain", "devicon-xcode-plain"]
+    "technologies": [
+      "devicon-flutter-plain", 
+      "devicon-firebase-plain", 
+      "devicon-figma-plain", 
+      "devicon-androidstudio-plain", 
+      "devicon-xcode-plain",
+      "devicon-python-plain"
+    ]
   },
   {
     "title": "WholeNotes Android App",
     "dates": "Sep 2025 - Nov 2025",
+    "role": "CSE 476 Project",
+    "company": "",
     "description": "A native Android application for rating and sharing songs, featuring cloud sync capabilities via Firebase.",
+    "detailedDescription": "WholeNotes is a native Android social application dedicated to music discovery and community sharing. It allows users to log, rate, and review songs they have listened to, creating a personalized feed of musical experiences. A key feature of the platform is the integration of location-based services, which securely tags posts with the user's current location, adding a geographic dimension to music sharing and helping users discover what tracks are trending in different areas.",
+    "whyBuilt": "This application was conceptualized and developed as a collaborative project for the CSE 470 software engineering course. The primary objective was to design, build, and deploy a fully functional native Android application from scratch. We chose to build a social music platform because it offered a compelling use case to integrate complex features—like real-time cloud data syncing and device hardware APIs—pushing us beyond the scope of a basic utility app.",
+    "whatILearned": "Building WholeNotes served as a comprehensive introduction to native Android development using Java and Android Studio. I gained practical experience structuring mobile application architecture and managing asynchronous data by connecting the frontend to a Firebase backend for real-time cloud syncing. Additionally, I successfully implemented device-level location APIs to capture and attach geographical data to user posts, which expanded my understanding of Android permissions and mobile hardware integration.",
     "image": "img/Projects/wholeNotesProject.png",
-    "link": "https://github.com/Soszust40/School#wholenotes-app-java",
+    "gallery": [],
+    "buttonText": "GitHub",
+    "liveLink": "",
+    "githubLink": "https://github.com/Soszust40/School#wholenotes-app-java",
     "category": "java",
     "type": "School",
-    "technologies": ["devicon-java-plain", "devicon-firebase-plain", "devicon-androidstudio-plain"]
+    "technologies": [
+      "devicon-java-plain", 
+      "devicon-firebase-plain", 
+      "devicon-androidstudio-plain"
+    ]
   },
   {
     "title": "Dino Game",
     "dates": "Feb 2025 - Nov 2025",
     "description": "A clone of Google's Dino game, featuring both an AI-powered mode trained using NEAT and a manual player mode.",
+    "detailedDescription": "This project is a fully featured clone of the classic Google Chrome Dinosaur game, built entirely in Python using the Pygame library. The game features a standard single-player mode and an AI-driven mode powered by the NEAT (NeuroEvolution of Augmenting Topologies) algorithm. The game is highly polished, featuring a complete, user-friendly menu system, adjustable settings, and true localization support.",
+    "whyBuilt": "I built this game because I wanted to learn how to make a game with artificial intelligence in it. My primary goal was to learn how to develop a game using Pygame from the ground up, and then challenge myself to build an AI engine capable of interacting with and mastering that environment. I also wanted the experience of creating a finished product, which meant going beyond the core gameplay loop to design a clean UI, implement functional menus, and add proper localization.",
+    "whatILearned": "This was a major technical milestone for me, as it was my first time implementing an AI engine within a project. I learned how to use the NEAT algorithm to train neural networks through evolution, allowing the AI to learn optimal jumping and ducking behaviors over time. Alongside the machine learning aspects, I gained a strong understanding of Pygame mechanics, including collision detection and rendering. I also learned how to structure a complete Python application, manage state across different game modes, and implement true localizations.",
     "image": "img/Projects/dinoGameProject.png",
-    "link": "https://github.com/Soszust40/Dino-Game",
+    "gallery": [],
+    "buttonText": "GitHub",
+    "liveLink": "",
+    "githubLink": "https://github.com/Soszust40/Dino-Game",
+    "downloadLink": "https://github.com/Soszust40/Dino-Game/releases/latest",
     "category": "python",
     "type": "Personal",
-    "technologies": ["devicon-python-plain"]
+    "technologies": [
+      "devicon-python-plain"
+    ]
   },
   {
     "title": "Hangman",
     "dates": "Feb 2025 - Aug 2025",
     "description": "A PyQt6-based Hangman game featuring multiple game modes, an achievement system, and a large word database.",
+    "detailedDescription": "This project is a fully featured, cross-platform graphical remaster of my classic Hangman game built with Python and PyQt6. Modernizing its original console-based system, this version introduces a full graphical user interface complete with a responsive on-screen keyboard, multiple game modes, and modular DLC settings for expanding the word databases. It also features a beautifully integrated achievement viewer to track and display player milestones directly within the app.",
+    "whyBuilt": "This game originally started as a simple text-based assignment during my very first Python class. As my skills progressed, I wanted to revisit those roots and challenge myself to completely remaster the project. The goal was to transform a basic script into a polished, production-ready desktop application, finally realizing the interconnected progression systems that I had created early in my programming journey. Furthermore, I specifically wanted this to be my first cross-platform release, aiming to create a seamless experience for both Mac and Windows users.",
+    "whatILearned": "Rebuilding this game from the ground up taught me how to design and implement complex desktop interfaces using the PyQt6 framework. I gained extensive experience managing application state across different UI windows, handling dynamic user inputs, and architecting a modular codebase capable of supporting expandable content. As my first cross-platform application, I learned how to properly manage OS-specific file paths and directory structures so that the game's local save files and achievement systems worked flawlessly on both macOS and Windows.",
     "image": "img/Projects/hangmanProject.png",
-    "link": "https://github.com/Oszust-Industries/Hangman",
+    "gallery": [],
+    "buttonText": "GitHub",
+    "liveLink": "",
+    "githubLink": "https://github.com/Oszust-Industries/Hangman",
+    "downloadLink": "https://github.com/Oszust-Industries/Hangman/releases/latest",
     "category": "python",
     "type": "Personal",
-    "technologies": ["devicon-python-plain"]
+    "technologies": [
+      "devicon-python-plain"
+    ]
   },
   {
     "title": "Music Tools",
     "dates": "Jan 2023 - Jan 2025",
+    "role": "Production / Technical Director",
+    "company": "88.1 The Park",
     "description": "An all-in-one solution for music enthusiasts to organize and manage their collections.",
-    "image": "img/Projects/musicToolsProject.png",
-    "link": "https://github.com/Oszust-Industries/Oszust-OS-Music-Tools",
+    "detailedDescription": "Music Tools is a comprehensive desktop application suite designed for music enthusiasts and broadcasters to manage their local audio collections. Built with Python and PySimpleGUI, the software features a robust set of utilities, including a dedicated music and YouTube downloader, a metadata burner for proper tagging, an integrated music player, and a lyrics checker to filter explicit language. It provides an all-in-one environment for searching, acquiring, and organizing high-quality audio files.",
+    "whyBuilt": "I originally developed this software for my local radio station, 88.1 The Park, to help them efficiently manage, screen, and curate their music catalog. As I built out features like metadata editing and explicit lyric filtering, I realized the suite had immense value for general music lovers as well. I expanded the project under the Oszust Industries banner to create a versatile, user-friendly tool that anyone could use to maintain a perfectly organized offline music library.",
+    "whatILearned": "Building Music Tools deeply expanded my knowledge of Python desktop application development. I gained extensive experience using PySimpleGUI to design and implement intuitive, multi-window user interfaces. Under the hood, I learned how to securely interact with the local file system, manipulate complex audio metadata, and integrate scraping and downloading protocols for audio streams. It was also a great lesson in packaging and maintaining a multi-faceted desktop application for Windows users.",
+    "image": "img/Projects/Music Tools/musicToolsProject.png",
+    "gallery": [
+      "img/Projects/Music Tools/Home.png",
+      "img/Projects/Music Tools/Music Downloader.png",
+      "img/Projects/Music Tools/YouTube Downloader.png",
+      "img/Projects/Music Tools/Music Tools.png",
+      "img/Projects/Music Tools/Music Search.png",
+      "img/Projects/Music Tools/Music List Search.png"
+    ],
+    "buttonText": "GitHub",
+    "liveLink": "",
+    "githubLink": "https://github.com/Oszust-Industries/Oszust-OS-Music-Tools",
+    "downloadLink": "https://github.com/Oszust-Industries/Oszust-OS-Music-Tools/releases/latest",
     "category": "python",
     "type": "Personal",
-    "technologies": ["devicon-python-plain", "devicon-php-plain", "devicon-notion-plain"]
+    "technologies": [
+      "devicon-python-plain", 
+      "devicon-php-plain", 
+      "devicon-notion-plain"
+    ]
   },
   {
     "title": "Temple of Xibalba",
     "dates": "Oct 2024 - Dec 2024",
+    "role": "Programmer",
+    "company": "Spartasoft Studios",
     "description": "A 3D temple treasure adventure game developed in Unity.",
+    "detailedDescription": "Temple of Xibalba is a high-polish 3D adventure game built in Unity. Set in an atmospheric and treacherous temple, players must navigate a maze of hidden traps and pursuing monsters. The core gameplay loop is a thrilling race against the clock, challenging players to secure a hidden treasure and successfully escape before time runs out.",
+    "whyBuilt": "This game was developed as my second major project with Spartasoft Studios at Michigan State University. Because our team had already gained solid foundational experience, we explicitly set out to prioritize visual fidelity and overall game polish. I wanted to be involved from the very beginning, contributing heavily to the full planning process and storyboarding to ensure our mechanics and aesthetic vision were completely aligned before production began.",
+    "whatILearned": "As a programmer on this project, I expanded my understanding of the Unity engine, specifically focusing on the visual and performance aspects of 3D game development. I gained hands-on experience with advanced rendering techniques, dynamic lighting, and environmental optimization to ensure the game ran smoothly without sacrificing its visual appeal. Working through a complete, polished production cycle taught me how to balance aesthetic goals with strict performance budgets.",
     "image": "img/Projects/xibalbaTempleProject.png",
-    "link": "https://youtu.be/7BgXSeOZ1w4",
+    "gallery": [],
+    "buttonText": "YouTube",
+    "liveLink": "https://youtu.be/7BgXSeOZ1w4",
+    "githubLink": "",
     "category": "C",
     "type": "School",
-    "technologies": ["devicon-csharp-plain", "devicon-gitlab-plain", "devicon-unity-plain"]
+    "technologies": [
+      "devicon-csharp-plain", 
+      "devicon-gitlab-plain", 
+      "devicon-unity-plain"
+    ]
   },
   {
     "title": "Largest Monotonic Island",
-    "dates": "November 2024",
+    "dates": "Nov 2024",
+    "role": "CSE 260 Project",
     "description": "A formal verification project using Dafny. Implemented and mathematically proved the correctness of a largest monotonic island.",
+    "detailedDescription": "The 'Largest Monotonic Island' project is an exploration into formal software verification using the Dafny programming language. The core of the project involves implementing an algorithm to find the largest contiguous strictly increasing or decreasing sequence (the 'island') within a dataset. Unlike standard programming, this project goes a step further by including rigorous mathematical specifications to formally prove the algorithm's absolute correctness for any valid input.",
+    "whyBuilt": "This project was developed for my CSE 260 Logic course to bridge the gap between theoretical mathematical proofs and practical software engineering. My goal was to move beyond writing code that simply 'seems to work' through basic testing, and instead build a program that mathematically guarantees its own reliability. It was a perfect opportunity to apply the discrete logic and proof structures I was learning in class directly to a functional codebase.",
+    "whatILearned": "This project served as my introduction to Dafny and the powerful paradigm of formal software verification. I learned how to write robust loop invariants, define strict preconditions, and structure code so that an automated theorem prover can validate it. This experience fundamentally shifted how I approach algorithm design, teaching me to think critically about edge cases and state management. Skills that still help me write highly reliable, bug-free code in any programming language.",
     "image": "img/Projects/schoolDafnyProject.png",
-    "link": "https://github.com/Soszust40/School/blob/main/README.md#largest-monotonic-island-dafny",
+    "gallery": [],
+    "buttonText": "GitHub",
+    "liveLink": "",
+    "githubLink": "https://github.com/Soszust40/School/blob/main/README.md#largest-monotonic-island-dafny",
     "category": "other",
     "type": "School",
     "technologies": []
   },
   {
     "title": "Writing Tools",
-    "dates": "October 2024",
+    "dates": "Oct 2024",
+    "role": "Open Source Contributor",
+    "company": "Writing Tools",
     "description": "Contributed to this open-source project by implementing a Dark Mode and fixing critical UI/UX bugs to improve user experience.",
+    "detailedDescription": "Writing Tools is an open-source, AI-powered writing assistant designed to bring Apple Intelligence-style capabilities natively to the Windows ecosystem. As a contributor to the project, I focused primarily on the frontend experience, working to modernize the application's interface. My major contributions included overhauling the visual design, resolving critical UI/UX bugs, and fully implementing a Dark Mode to improve accessibility and user comfort.",
+    "whyBuilt": "As an active daily user of the product, I saw a clear opportunity to improve a tool I rely on while simultaneously stepping into the open-source community. I wanted to help bring Dark Mode to Windows users who were looking for a polished AI writing experience. Contributing to this project allowed me to give back to the tool's ecosystem while actively shaping its development.",
+    "whatILearned": "This project served as a fantastic, hands-on introduction to the open-source software development lifecycle. I gained practical experience navigating collaborative Git workflows, including forking repositories, managing feature branches, and submitting formal pull requests for review. On the technical side, I deepened my Python UI skills by implementing global state changes for the Dark Mode toggle and learning how to effectively debug and refine third-party codebases.",
     "image": "img/Projects/writingToolsProject.png",
-    "link": "https://github.com/theJayTea/WritingTools",
+    "gallery": [],
+    "buttonText": "GitHub",
+    "liveLink": "",
+    "githubLink": "https://github.com/theJayTea/WritingTools",
+    "downloadLink": "https://github.com/theJayTea/WritingTools/releases/latest",
     "category": "python",
     "type": "Opensource",
-    "technologies": ["devicon-python-plain"]
+    "technologies": [
+      "devicon-python-plain"
+    ]
   },
   {
     "title": "Undercooked",
     "dates": "Sep 2024 - Oct 2024",
+    "role": "Developer",
+    "company": "Spartasoft Studios",
     "description": "A 2-player rival cooking prototype game made in Unity.",
+    "detailedDescription": "Undercooked is an asymmetrical 2-player cooking prototype built in Unity that puts a competitive twist on the chaotic kitchen genre. In this local multiplayer experience, one player assumes the role of the chef, tasked with preparing meals, delivering food to tables, and keeping the kitchen spotless. The second player acts as the saboteur, actively trying to ruin the restaurant by dropping trash and destroying tables. The game supports both dual-controller setups and shared-keyboard play via WASD and arrow keys.",
+    "whyBuilt": "This prototype was my very first project with Spartasoft Studios at Michigan State University. We wanted to create a fun, chaotic local multiplayer game inspired by titles like 'Overcooked,' but with a direct, head-to-head competitive twist rather than pure co-op. The primary goal was to build a minimum viable product that was instantly understandable, highly replayable, and fun to play with a friend on the same screen.",
+    "whatILearned": "As my first large-scale Unity project, Undercooked was a massive stepping stone in my game development journey. I learned the core fundamentals of the Unity engine, including physics, collision detection, and scene management, while getting hands-on experience with C# scripting. Additionally, I gained practical experience handling complex local multiplayer input systems, mapping multiple controllers and keyboard configurations simultaneously to ensure a smooth 2-player experience.",
     "image": "img/Projects/undercookedProject.png",
-    "link": "https://haydenhe.itch.io/undercooked",
+    "gallery": [],
+    "buttonText": "Itch.io",
+    "liveLink": "https://haydenhe.itch.io/undercooked",
+    "githubLink": "",
     "category": "C",
     "type": "School",
-    "technologies": ["devicon-csharp-plain", "devicon-gitlab-plain", "devicon-unity-plain"]
+    "technologies": [
+      "devicon-csharp-plain", 
+      "devicon-gitlab-plain", 
+      "devicon-unity-plain"
+    ]
   },
   {
     "title": "School Projects",
     "dates": "May 2021 - Current",
+    "role": "Computer Science Bacholor",
+    "company": "Michigan State University",
     "description": "A collection of various games and software created during my academic studies.",
-    "image": "img/Projects/schoolProjects.png",
-    "link": "https://github.com/Soszust40/School",
+    "detailedDescription": "This repository serves as a comprehensive archive of the software and game development projects I have completed throughout my academic career at Michigan State University. It includes a diverse range of applications built across multiple languages, including Python, Java, and C++. The standout project in this collection is Spartan Mind, a complex, cross-platform game developed as a capstone project for my CSE 335 course.",
+    "whyBuilt": "These projects were developed to fulfill academic requirements and to translate computer science concepts into functional software. For the highlight project, Spartan Mind, our team was tasked with building a large-scale application from the ground up. We wanted to challenge ourselves by creating a game that didn't just function, but ran completely natively and optimized on both macOS and Windows operating systems.",
+    "whatILearned": "Through these academic projects, I built a strong foundation in multiple programming paradigms. Working on Spartan Mind specifically pushed my C++ skills to the next level. I learned how to architect and manage massive, multi-file codebases, ensuring cross-platform compatibility and high-performance optimization. Furthermore, developing the game within a team environment taught me invaluable professional skills, including Agile methodologies, working in structured sprints, and effective version-control collaboration.",
+    "image": "img/Projects/School/schoolProjects.png",
+    "gallery": [
+      "img/Projects/School/schoolProjects.png",
+      "img/Projects/School/Fitness App.png",
+      "img/Projects/School/Wedding.png",
+      "img/Projects/School/Wordle.png"
+    ],
+    "buttonText": "GitHub",
+    "liveLink": "",
+    "githubLink": "https://github.com/Soszust40/School",
     "category": "java C python",
     "type": "School",
-    "technologies": ["devicon-python-plain", "devicon-java-plain", "devicon-cplusplus-plain"]
+    "technologies": [
+      "devicon-python-plain", 
+      "devicon-java-plain", 
+      "devicon-cplusplus-plain"
+    ]
   },
   {
     "title": "Achievement Watcher",
     "dates": "July 2021 - Aug 2021",
     "description": "A tool that displays game achievements tracked across my various game projects.",
+    "detailedDescription": "Achievement Watcher is a custom utility designed to act as a centralized hub for tracking player progress across a suite of custom-built, text-based Python games. By running in tandem with my smaller console titles, Hangman and various 'Choose Your Own Adventure' stories, the software reads shared data files to unlock and display global achievements, creating a unified gaming ecosystem.",
+    "whyBuilt": "This was one of my very first Python projects, born out of an early passion for video game development. At the time, my programming knowledge was strictly limited to Python console applications. To make my simple text-based games feel more expansive and rewarding, I conceptualized a meta-progression system that would tie them all together, simulating the achievement trackers found on modern gaming platforms.",
+    "whatILearned": "Building this tool was my practical introduction to file management and data persistence in Python. I learned how to structure, read, and safely write save files that could be accessed and modified by entirely separate software programs. It taught me the core fundamentals of state management and how to establish basic cross-application communication using the local file system.",
     "image": "img/Projects/achievementWatcherProject.png",
-    "link": "https://github.com/Oszust-Industries/Achievement-Watcher",
+    "gallery": [],
+    "buttonText": "GitHub",
+    "liveLink": "",
+    "githubLink": "https://github.com/Oszust-Industries/Achievement-Watcher",
     "category": "python",
     "type": "Personal",
-    "technologies": ["devicon-python-plain"]
+    "technologies": [
+      "devicon-python-plain"
+    ]
   }
 ]

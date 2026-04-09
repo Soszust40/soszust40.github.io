@@ -52,6 +52,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     <a href="#" class="project-card project-trigger" data-index="${index}">
                         <div class="project-img-container">
                             <img loading="lazy" src="${project.image}" alt="${project.title}">
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                    <span>View Details</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="project-content">
                             <div class="project-tech-header">
@@ -116,6 +122,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 if (externalLink) {
                     buttonsHTML += `<a href="${externalLink}" target="_blank" rel="noopener noreferrer" class="modal-btn modal-btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> ${customBtnText}</a>`;
+                }
+                if (project.downloadLink) {
+                    buttonsHTML += `<a href="${project.downloadLink}" target="_blank" rel="noopener noreferrer" class="modal-btn modal-btn-primary"><i class="fa-solid fa-download"></i> Download</a>`;
                 }
                 if (project.githubLink) {
                     buttonsHTML += `<a href="${project.githubLink}" target="_blank" rel="noopener noreferrer" class="modal-btn modal-btn-secondary"><i class="fa-brands fa-github"></i> GitHub</a>`;
