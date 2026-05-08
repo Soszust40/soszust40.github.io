@@ -2383,6 +2383,23 @@ body.light-mode .btn-theme-toggle .fa-sun { transform: translateY(0) rotate(0); 
     .modal-content-body {
         padding: 20px 15px;
     }
+
+    .experience-item,
+    .experience-item.right {
+        float: none !important;
+        margin-top: 0 !important;
+        width: 100% !important;
+    }
+
+    .experience-item.right .experience-content,
+    .experience-item .experience-content {
+        margin: 20px 0 0 0 !important;
+    }
+
+    .experience-item .experience-content:after,
+    .experience-item.right .experience-content:after {
+        display: none !important; 
+    }
 }
 
 @media (max-width: 600px) {
