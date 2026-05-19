@@ -1388,51 +1388,74 @@ a.project-card:hover .overlay-content {
 
 /* Awards Section */
 #awards {
-    padding: 50px 0;
+    padding: 60px 0;
 }
 
-.awards_title .section-title {
-    text-align: center;
-    margin-bottom: 30px;
+#awards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    padding: 0 15px;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: stretch;
+}
+
+#awards-container::before,
+#awards-container::after {
+    display: none !important;
+    content: none !important;
+}
+
+.award-card {
+    display: flex !important;
+    float: none !important;
+    clear: none !important;
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    box-sizing: border-box;
 }
 
 .award-item {
     text-align: center;
-    margin-bottom: 30px;
-    padding: 30px 20px;
+    padding: 30px 24px;
     background-color: #1f1f1f;
     border: 1px solid #333;
-    border-radius: 8px;
-    box-shadow: none;
-    transition: all 0.3s ease;
-    height: 100%;
+    border-radius: 12px;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    height: 100%; 
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .award-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
     border-color: #ffdd57;
 }
 
 .award-icon {
-    font-size: 40px;
-    color: #f39c12;
-    margin-bottom: 15px;
-    transition: transform 0.3s;
+    font-size: 32px;
+    color: #ffdd57;
+    margin-bottom: 16px;
+    transition: transform 0.3s ease;
 }
 
 .award-item:hover .award-icon {
-    transform: scale(1.1); 
+    transform: scale(1.15);
 }
 
-.award-icon i {
-    font-size: 30px;
-    color: #fff;
-    line-height: 1.5;
+.award-details {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
 
 .award-details h4 {
@@ -1440,18 +1463,8 @@ a.project-card:hover .overlay-content {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 10px;
-    transition: color 0.3s;
-}
-
-.award-item:hover .award-details h4 {
-    color: #ffdd57;
-}
-
-.award-details p {
-    font-size: 13px;
-    color: #bbb;
-    line-height: 1.5;
+    margin: 0 0 8px 0;
+    line-height: 1.4;
 }
 
 .award-details .issuer {
@@ -1459,55 +1472,96 @@ a.project-card:hover .overlay-content {
     font-size: 11px;
     font-weight: 700;
     color: #ffdd57;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.award-details .project-date {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.award-details p {
+    font-size: 13.5px;
+    color: #bbb;
+    line-height: 1.6;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.award-details .credential-id {
+    display: inline-block;
+    font-size: 11px;
+    color: #888;
+    margin-bottom: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.award-details .credential-id code {
+    background: #2a2a2a;
+    color: #ffdd57;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 11px;
+    border: 1px solid #333;
+    margin-left: 4px;
+}
+
+.award-actions {
+    margin-top: 18px;
+    padding-top: 12px;
+    border-top: 1px solid #2a2a2a;
+}
+
+.btn-verify {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    color: #ffdd57 !important;
+    border: 1px solid #ffdd57;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    transition: all 0.2s ease-in-out;
 }
 
-.award-item {
-    text-align: center;
-    margin-bottom: 30px;
-    padding: 30px 20px;
-    background-color: #1f1f1f; 
-    border: 1px solid #333;    
-    border-radius: 8px;
-    box-shadow: none;
-    transition: all 0.3s ease; 
-    height: 100%; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.btn-verify i {
+    font-size: 10px;
 }
 
-.award-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-    border-color: #ffdd57;
+.btn-verify:hover {
+    background: #ffdd57;
+    color: #121212 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 221, 87, 0.2);
 }
 
-.award-icon {
-    font-size: 40px;
-    color: #f39c12;
-    margin-bottom: 15px;
-    transition: transform 0.5s ease; 
+body.light-mode .award-details .credential-id code {
+    background: #f4f5f8;
+    color: #006DCD;
+    border-color: #ddd;
 }
 
-.award-item:hover .award-icon {
-    transform: scale(1.05); 
+body.light-mode .award-actions {
+    border-top-color: #eee;
 }
 
-.award-details h4 {
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    color: #fff;
-    margin-bottom: 10px;
-    transition: color 0.3s;
+body.light-mode .btn-verify {
+    color: #006DCD !important;
+    border-color: #006DCD;
 }
 
-.award-item:hover .award-details h4 {
-    color: #ffdd57;
+body.light-mode .btn-verify:hover {
+    background: #006DCD;
+    color: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 109, 205, 0.2);
 }
 
 /* Contact Section */
