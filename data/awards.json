@@ -5,7 +5,15 @@
     "issuer": "Microsoft",
     "description": "Demonstrates foundational expertise in hardware and software fundamentals, secure networking, cybersecurity, technical troubleshooting, and the Microsoft 365 ecosystem.",
     "icon": "fa fa-desktop",
-    "url": "data/Awards/Microsoft IT Support Specialist Professional Certificate.pdf"
+    "url": "data/Awards/Microsoft IT Support Specialist Professional.pdf"
+  },
+  {
+    "title": "Microsoft UX Design",
+    "issue_date": "June 2026",
+    "issuer": "Microsoft",
+    "description": "Demonstrates proficiency in UI/UX design principles, user experience research, interface prototyping, and designing accessible, collaborative digital solutions.",
+    "icon": "fa fa-palette",
+    "url": "data/Awards/Microsoft UX Design.pdf"
   },
   {
     "title": "Adult and Pediatric First Aid/CPR/AED",
