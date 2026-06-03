@@ -1,5 +1,13 @@
 [
   {
+    "title": "Microsoft IT Support Specialist",
+    "issue_date": "June 2026",
+    "issuer": "Microsoft",
+    "description": "Demonstrates foundational expertise in hardware and software fundamentals, secure networking, cybersecurity, technical troubleshooting, and the Microsoft 365 ecosystem.",
+    "icon": "fa fa-desktop",
+    "url": "data/Awards/Microsoft IT Support Specialist Professional Certificate.pdf"
+  },
+  {
     "title": "Adult and Pediatric First Aid/CPR/AED",
     "issue_date": "May 2024",
     "expiration_date": "May 2026",
