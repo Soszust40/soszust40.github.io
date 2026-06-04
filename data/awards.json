@@ -8,6 +8,22 @@
     "url": "data/Awards/Microsoft IT Support Specialist Professional.pdf"
   },
   {
+    "title": "IBM AI Developer",
+    "issue_date": "June 2026",
+    "issuer": "IBM",
+    "description": "Demonstrates proficiency in software engineering fundamentals, Python programming, and web development, with specialized expertise in building, fine-tuning, and deploying generative AI-powered applications, chatbots, and intelligent solutions using Flask and various AI frameworks.",
+    "icon": "fa fa-brain",
+    "url": "data/Awards/IBM AI Developer.pdf"
+  },
+  {
+    "title": "Microsoft Project Management",
+    "issue_date": "June 2026",
+    "issuer": "Microsoft",
+    "description": "Demonstrates proficiency in project management principles, including traditional and Agile methodologies, project planning, risk management, execution, and effective team leadership to successfully deliver organizational objectives.",
+    "icon": "fa fa-project-diagram",
+    "url": "data/Awards/Microsoft Project Management.pdf"
+  },
+  {
     "title": "Microsoft UX Design",
     "issue_date": "June 2026",
     "issuer": "Microsoft",
