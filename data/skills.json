@@ -19,7 +19,13 @@
       "level": "Advanced"
     },
     {
-      "name": "JavaScript",
+      "name": "Swift",
+      "icon": "devicon-swift-plain",
+      "year": "2025",
+      "level": "Proficient"
+    },
+    {
+      "name": "JavaScript / React",
       "icon": "devicon-javascript-plain",
       "year": "2022",
       "level": "Proficient"
@@ -28,6 +34,12 @@
       "name": "HTML5/CSS3",
       "icon": "devicon-html5-plain",
       "year": "2023",
+      "level": "Proficient"
+    },
+    {
+      "name": "SQL / NoSQL",
+      "icon": "devicon-azuresqldatabase-plain",
+      "year": "2024",
       "level": "Proficient"
     },
     {
@@ -47,27 +59,24 @@
       "icon": "devicon-gcc-plain",
       "year": "2024",
       "level": "Intermediate"
-    },
-    {
-      "name": "Swift",
-      "icon": "devicon-swift-plain",
-      "year": "2025",
-      "level": "Intermediate"
     }
   ],
   "tools": [
+    { "name": "Android Studio", "icon": "devicon-androidstudio-plain", "year": "2024" },
+    { "name": "Xcode", "icon": "devicon-xcode-plain", "year": "2024" },
+    { "name": "Docker", "icon": "devicon-docker-plain", "year": "2024" },
+    { "name": "Git/GitHub", "icon": "devicon-git-plain", "year": "2020" },
+    { "name": "Visual Studio", "icon": "devicon-visualstudio-plain", "year": "2020" },
+    { "name": "VS Code", "icon": "devicon-vscode-plain", "year": "2020" },
     { "name": "Adobe Photoshop", "icon": "devicon-photoshop-plain", "year": "2020" },
     { "name": "Adobe Premiere", "icon": "devicon-premierepro-plain", "year": "2020" },
     { "name": "Adobe Audition", "icon": "fa fa-music", "year": "2020" },
     { "name": "After Effects", "icon": "devicon-aftereffects-plain", "year": "2022" },
-    { "name": "Office Suite", "icon": "fa-brands fa-windows", "year": "2015" },
-    { "name": "Google Suite", "icon": "devicon-google-plain", "year": "2015" },
-    { "name": "Git/GitHub", "icon": "devicon-git-plain", "year": "2020" },
-    { "name": "Visual Studio", "icon": "devicon-visualstudio-plain", "year": "2020" },
-    { "name": "VS Code", "icon": "devicon-vscode-plain", "year": "2020" },
+    { "name": "InDesign", "icon": "fa fa-newspaper", "year": "2026" },
+    { "name": "Illustrator", "icon": "devicon-illustrator-plain", "year": "2026" },
     { "name": "Figma", "icon": "devicon-figma-plain", "year": "2025" },
-    { "name": "Android Studio", "icon": "devicon-androidstudio-plain", "year": "2024" },
-    { "name": "Xcode", "icon": "devicon-xcode-plain", "year": "2024" }
+    { "name": "Office Suite", "icon": "fa-brands fa-windows", "year": "2015" },
+    { "name": "Google Suite", "icon": "devicon-google-plain", "year": "2015" }
   ],
   "leadership": [
     {
